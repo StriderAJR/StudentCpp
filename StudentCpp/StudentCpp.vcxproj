@@ -148,6 +148,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConsoleDraw.cpp" />
     <ClCompile Include="Examples\AssocArray.cpp" />
     <ClCompile Include="Examples\AssocArrayTemplate.cpp" />
     <ClCompile Include="Examples\ConsoleDraw.cpp">
@@ -165,7 +166,6 @@
     <ClCompile Include="Examples\Theme11.cpp" />
     <ClCompile Include="Examples\Theme12.cpp" />
     <ClCompile Include="Examples\VirtualFunctionsExample.cpp" />
-    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

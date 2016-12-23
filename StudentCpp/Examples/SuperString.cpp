@@ -1,11 +1,8 @@
-#pragma once
-
-#include <iostream>
-
-namespace SuperString
-{
-    void SuperString_Main()
-    {
-        printf("Hello, World!");
-    }
-}
+//// Моя первая программа
+//
+//#include <iostream>
+//
+//void main()
+//{
+//	printf("Hello, World!");
+//}
