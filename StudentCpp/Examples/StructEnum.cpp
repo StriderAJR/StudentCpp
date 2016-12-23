@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 using namespace std;
 
@@ -22,7 +24,7 @@ namespace StructEnum
         MoneyType Money;
     };
 
-    int StructEnum_Main()
+    void StructEnum_Main()
     {
         Point p1; // —татическое создание переменной типа структура
         Point* p2 = new Point; // ƒинамическое создание переменной типа структура

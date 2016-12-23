@@ -71,6 +71,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -87,8 +88,9 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Programmes\StudentCpp\StudentCpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +148,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Examples\AssocArray.cpp" />
+    <ClCompile Include="Examples\AssocArrayTemplate.cpp" />
+    <ClCompile Include="Examples\ConsoleDraw.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Examples\LocalGlobalFormalVariable.cpp" />
+    <ClCompile Include="Examples\Polymorph.cpp" />
+    <ClCompile Include="Examples\ReferencesPractic.cpp" />
+    <ClCompile Include="Examples\StructArray.cpp" />
+    <ClCompile Include="Examples\StructEnum.cpp" />
+    <ClCompile Include="Examples\StructList.cpp" />
+    <ClCompile Include="Examples\SuperString.cpp" />
+    <ClCompile Include="Examples\TemplateList.cpp" />
+    <ClCompile Include="Examples\Templates.cpp" />
+    <ClCompile Include="Examples\Theme11.cpp" />
+    <ClCompile Include="Examples\Theme12.cpp" />
+    <ClCompile Include="Examples\VirtualFunctionsExample.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

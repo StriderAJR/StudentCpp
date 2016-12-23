@@ -1,4 +1,4 @@
-// Моя первая программа
+#pragma once
 
 #include <iostream>
 

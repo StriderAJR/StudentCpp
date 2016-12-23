@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 using namespace std;
 
@@ -37,6 +39,6 @@ namespace Polymorph
         pb2->Print();
 
         Element e2;
-        Base b;
+        // Base b; // “ут будет ошибка компил€ции, потому что невозможно создать экземпл€р абстрактного класса
     }
 }

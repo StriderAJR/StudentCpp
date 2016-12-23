@@ -1,7 +1,9 @@
+#pragma once
+
 #include <iostream>
 using namespace std;
 
-namespace SuperString
+namespace TemplateList
 {
     class Vector
     {
