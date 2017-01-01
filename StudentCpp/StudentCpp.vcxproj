@@ -148,24 +148,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleDraw.cpp" />
-    <ClCompile Include="Examples\AssocArray.cpp" />
-    <ClCompile Include="Examples\AssocArrayTemplate.cpp" />
-    <ClCompile Include="Examples\ConsoleDraw.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Examples\LocalGlobalFormalVariable.cpp" />
-    <ClCompile Include="Examples\Polymorph.cpp" />
-    <ClCompile Include="Examples\ReferencesPractic.cpp" />
-    <ClCompile Include="Examples\StructArray.cpp" />
-    <ClCompile Include="Examples\StructEnum.cpp" />
-    <ClCompile Include="Examples\StructList.cpp" />
-    <ClCompile Include="Examples\SuperString.cpp" />
-    <ClCompile Include="Examples\TemplateList.cpp" />
-    <ClCompile Include="Examples\Templates.cpp" />
-    <ClCompile Include="Examples\Theme11.cpp" />
-    <ClCompile Include="Examples\Theme12.cpp" />
-    <ClCompile Include="Examples\VirtualFunctionsExample.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssocArray.h" />
+    <ClInclude Include="AssocArrayTemplate.h" />
+    <ClInclude Include="ConsoleDraw.h" />
+    <ClInclude Include="LocalGlobalFormalVariable.h" />
+    <ClInclude Include="Polymorph.h" />
+    <ClInclude Include="ReferencesPractic.h" />
+    <ClInclude Include="StructArray.h" />
+    <ClInclude Include="StructArrayOld.h" />
+    <ClInclude Include="StructEnum.h" />
+    <ClInclude Include="StructList.h" />
+    <ClInclude Include="SuperString.h" />
+    <ClInclude Include="TemplateList.h" />
+    <ClInclude Include="Templates.h" />
+    <ClInclude Include="Theme11.h" />
+    <ClInclude Include="Theme12.h" />
+    <ClInclude Include="VirtualFunctionsExample.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
