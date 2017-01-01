@@ -1,58 +1,62 @@
-/*
+#pragma once
+
+
 #include <iostream>
 #include <string.h>
 using namespace std;
  
-int sum_by_value(int );// суммирование по значению
-int sum_by_reference(int &);// суммирование по ссылке
-int sum_by_pointer(int *); // суммирование по указателю
- 
-int main()
+namespace ReferencesPractic
 {
-	int value = 15;
-    int& reference = value; // объ€вление и инициализаци€ ссылки значением переменной value
+    int sum_by_value(int);// суммирование по значению
+    int sum_by_reference(int &);// суммирование по ссылке
+    int sum_by_pointer(int *); // суммирование по указателю
 
-    cout << "value     = " << value     << endl;
-    cout << "reference = " << reference << endl;
+    int ReferencesPractic_Main()
+    {
+        int value = 15;
+        int& reference = value; // объ€вление и инициализаци€ ссылки значением переменной value
 
-	char* string = NULL;
+        cout << "value     = " << value << endl;
+        cout << "reference = " << reference << endl;
 
-    reference+=15; // измен€ем значение переменной value посредством изменени€ значени€ в ссылке
+        char* string = NULL;
 
-    cout << "value     = " << value     << endl; // смотрим, что получилось, как будет видно дальше значение помен€лось как в ссылке,
-    cout << "reference = " << reference << endl; //  так и в ссылочной переменной
+        reference += 15; // измен€ем значение переменной value посредством изменени€ значени€ в ссылке
 
-    system("pause");
+        cout << "value     = " << value << endl; // смотрим, что получилось, как будет видно дальше значение помен€лось как в ссылке,
+        cout << "reference = " << reference << endl; //  так и в ссылочной переменной
 
-    value = 10;
+        system("pause");
 
-    cout << "sum_by_value     = " << sum_by_value(value)     << endl;
-    cout << "value = " << value   << endl; // значение переменной осталось неизменным
-    cout << "sum_by_reference = " << sum_by_reference(value) << endl;
-    cout << "value = " << value   << endl; // значение переменной изменилось
-    cout << "sum_by_pointer     = " << sum_by_pointer(&value)  << endl;
-    cout << "value = " << value   << endl; // значение переменной изменилось ещЄ раз
+        value = 10;
 
-    system("pause");
+        cout << "sum_by_value     = " << sum_by_value(value) << endl;
+        cout << "value = " << value << endl; // значение переменной осталось неизменным
+        cout << "sum_by_reference = " << sum_by_reference(value) << endl;
+        cout << "value = " << value << endl; // значение переменной изменилось
+        cout << "sum_by_pointer     = " << sum_by_pointer(&value) << endl;
+        cout << "value = " << value << endl; // значение переменной изменилось ещЄ раз
 
-    return 0;
+        system("pause");
+
+        return 0;
+    }
+
+    int sum_by_value(int value)// функци€ принимающа€ аргумент по значению
+    {
+        value += value;
+        return value;
+    }
+
+    int sum_by_reference(int& reference) // функци€ принимающа€ аргумент по ссылке
+    {
+        reference += reference;
+        return reference;
+    }
+
+    int sum_by_pointer(int* ptrvalue)// функци€ принимающа€ аргумент через указатель
+    {
+        *ptrvalue += *ptrvalue; // арифметика с указателем
+        return *ptrvalue;
+    }
 }
- 
-int sum_by_value(int value)// функци€ принимающа€ аргумент по значению
-{
-    value += value;
-    return value;
-}
- 
-int sum_by_reference(int& reference) // функци€ принимающа€ аргумент по ссылке
-{
-    reference += reference;
-    return reference;
-}
- 
-int sum_by_pointer(int* ptrvalue)// функци€ принимающа€ аргумент через указатель
-{
-    *ptrvalue += *ptrvalue; // арифметика с указателем
-    return *ptrvalue;
-}
-*/

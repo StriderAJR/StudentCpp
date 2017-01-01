@@ -158,7 +158,6 @@
     <ClInclude Include="Polymorph.h" />
     <ClInclude Include="ReferencesPractic.h" />
     <ClInclude Include="StructArray.h" />
-    <ClInclude Include="StructArrayOld.h" />
     <ClInclude Include="StructEnum.h" />
     <ClInclude Include="StructList.h" />
     <ClInclude Include="SuperString.h" />

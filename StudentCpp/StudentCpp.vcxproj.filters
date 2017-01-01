@@ -41,9 +41,6 @@
     <ClInclude Include="ReferencesPractic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StructArrayOld.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="StructEnum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
