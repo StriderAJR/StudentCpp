@@ -74,9 +74,6 @@
     <ClInclude Include="Basics_7_Structures.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_8_Union.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Basics_9_Enum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -96,6 +93,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Zzz_ConsoleLanguage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_8_Unions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
