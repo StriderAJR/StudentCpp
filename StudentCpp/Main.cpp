@@ -11,7 +11,7 @@ void main()
 //    StructArray::StructArray_Main();
 //    ConsoleDraw::ConsoleDraw_Main();
 //    AssocArray::AssocArray_Main();
-//    Polymorph::Polymorph_Main();
+    Polymorph::Polymorph_Main();
 
     system("pause");
 }
