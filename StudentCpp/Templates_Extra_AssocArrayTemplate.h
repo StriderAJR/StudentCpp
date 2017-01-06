@@ -60,7 +60,7 @@ namespace AssocArrayTemplate
         }
     };
 
-    void AssocArrayTemplate_Main()
+    void main()
     {
         AssocArray<int> arr;
         arr["First"] = 555;

@@ -10,7 +10,7 @@ namespace LocalGlobalVariables
     void func1();
     void func2();
 
-    void LocalGlobalVariables_Main()
+    void main()
     {
         count = 0;
 

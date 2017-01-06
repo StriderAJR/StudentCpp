@@ -81,7 +81,7 @@ namespace StructList
         }
     }
 
-    void StructList_Main()
+    void main()
     {
         setlocale(LC_ALL, "Rus");
 

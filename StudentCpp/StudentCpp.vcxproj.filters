@@ -38,15 +38,6 @@
     <ClInclude Include="OOP_7.1_VirtualFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_4_StructList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Basics_3_ReferencesPractic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="OOP_2.1_StructArray.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="OOP_2.2_StructEnum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -59,15 +50,39 @@
     <ClInclude Include="Zzz_ConsoleDraw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_2_LocalGlobalVariables.h">
+    <ClInclude Include="Basics_1_FirstProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_1.1_FirstProgram.h">
+    <ClInclude Include="Basics_2.1_Variables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_2.3_LocalVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_2.4_LocalGlobalVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_3_Cycles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_4_Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_6_References.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_5_Pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_7_StructList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOP_2.1_ClassArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Basics_1.2_FirstProgram.h">
+    <None Include="Basics_2.2_GlobalVariables.h">
       <Filter>Header Files</Filter>
     </None>
   </ItemGroup>

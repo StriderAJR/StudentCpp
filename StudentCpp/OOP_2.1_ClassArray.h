@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace StructArray
+namespace ClassArray
 {
     class Book
     {
@@ -131,7 +131,7 @@ namespace StructArray
         }
     }
 
-    void StructArray_Main()
+    void main()
     {
         setlocale(0, "RUS");
 

@@ -89,7 +89,7 @@ namespace ConsoleDraw
         Arc(device_context, 380, 260, 460, 290, 380, 275, 460, 275);
     }
 
-    void ConsoleDraw_Main()
+    void main()
     {
         //    DrawLine(100, 100, 100, 200);
         //    DrawRectangle(50, 50, 200, 100);

@@ -52,7 +52,7 @@ namespace ClassExample1
     };
 
 
-    void ClassExample1_Main()
+    void main()
     {
         setlocale(LC_ALL, "Russian");
 

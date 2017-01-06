@@ -59,7 +59,7 @@ namespace Polymorph
         }
     };
 
-    void Polymorph_Main()
+    void main()
     {
         Element* e = new Element();
         Base* pb = (Base*)e;

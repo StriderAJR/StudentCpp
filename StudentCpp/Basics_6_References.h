@@ -11,7 +11,7 @@ namespace ReferencesPractic
     int sum_by_reference(int &);// суммирование по ссылке
     int sum_by_pointer(int *); // суммирование по указателю
 
-    int ReferencesPractic_Main()
+    int main()
     {
         int value = 15;
         int& reference = value; // объ€вление и инициализаци€ ссылки значением переменной value

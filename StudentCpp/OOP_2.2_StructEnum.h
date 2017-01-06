@@ -24,7 +24,7 @@ namespace StructEnum
         MoneyType Money;
     };
 
-    int StructEnum_Main()
+    int main()
     {
         Point p1; // —татическое создание переменной типа структура
         Point* p2 = new Point; // ƒинамическое создание переменной типа структура

@@ -151,16 +151,21 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Basics_1.1_FirstProgram.h" />
+    <ClInclude Include="Basics_1_FirstProgram.h" />
+    <ClInclude Include="Basics_2.3_LocalVariables.h" />
+    <ClInclude Include="Basics_3_Cycles.h" />
+    <ClInclude Include="Basics_2.1_Variables.h" />
+    <ClInclude Include="Basics_4_Functions.h" />
+    <ClInclude Include="Basics_5_Pointers.h" />
     <ClInclude Include="OOP_Extra_AssocArray.h" />
     <ClInclude Include="Templates_Extra_AssocArrayTemplate.h" />
     <ClInclude Include="Zzz_ConsoleDraw.h" />
-    <ClInclude Include="Basics_2_LocalGlobalVariables.h" />
+    <ClInclude Include="Basics_2.4_LocalGlobalVariables.h" />
     <ClInclude Include="OOP_7.2_Polymorph.h" />
-    <ClInclude Include="Basics_3_ReferencesPractic.h" />
-    <ClInclude Include="OOP_2.1_StructArray.h" />
+    <ClInclude Include="Basics_6_References.h" />
+    <ClInclude Include="OOP_2.1_ClassArray.h" />
     <ClInclude Include="OOP_2.2_StructEnum.h" />
-    <ClInclude Include="Basics_4_StructList.h" />
+    <ClInclude Include="Basics_7_StructList.h" />
     <ClInclude Include="Templates_2_TemplateList.h" />
     <ClInclude Include="Templates_1_Templates.h" />
     <ClInclude Include="OOP_1.1_ClassExample1.h" />
@@ -168,7 +173,7 @@
     <ClInclude Include="OOP_7.1_VirtualFunctions.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Basics_1.2_FirstProgram.h" />
+    <None Include="Basics_2.2_GlobalVariables.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -23,7 +23,7 @@ namespace VirtualFunctions
         void          function2() { cout << "Child::function2()" << endl; }
     };
 
-    void VirtualFunctions_Main()
+    void main()
     {
         Child*  pointer = new Child();
         Base*    pointer_copy = pointer;

@@ -65,7 +65,7 @@ namespace TemplateList
     };
 
 
-    void TemplateList_Main()
+    void main()
     {
         // Список чисел
         List<int> list;

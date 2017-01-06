@@ -1,14 +1,16 @@
 #include <iostream>
 #include "OOP_7.2_Polymorph.h"
+#include "OOP_2.1_ClassArray.h"
 
-using namespace std;
+using namespace std;    
 
 void main()
 {
-//    StructArray::StructArray_Main();
-//    ConsoleDraw::ConsoleDraw_Main();
-//    AssocArray::AssocArray_Main();
-    Polymorph::Polymorph_Main();
+//    StructArray::main();
+//    ConsoleDraw::main();
+//    AssocArray::main();
+    Polymorph::main();
+    ClassArray::main();
 
     system("pause");
 }

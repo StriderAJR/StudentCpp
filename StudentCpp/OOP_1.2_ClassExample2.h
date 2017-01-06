@@ -92,7 +92,7 @@ namespace ClassExample2
     Employee& PrintLineRef2(Employee &empl) { cout << "\n"; empl.Print(); return empl; }
 
 
-    void ClassExample2_Main()
+    void main()
     {
         setlocale(LC_ALL, "Russian");
 

@@ -59,7 +59,7 @@ namespace AssocArray
         }
     };
 
-    void AssocArray_Main()
+    void main()
     {
         AssocArray arr;
         arr["First"] = 555;

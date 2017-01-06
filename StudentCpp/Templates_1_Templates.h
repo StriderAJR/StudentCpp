@@ -145,7 +145,7 @@ namespace Templates
         return os;
     }
 
-    void Templates_Main()
+    void main()
     {
         setlocale(LC_ALL, "Rus");
 
