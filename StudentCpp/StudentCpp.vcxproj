@@ -151,21 +151,20 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AssocArray.h" />
+    <ClInclude Include="OOP_Extra_AssocArray.h" />
     <ClInclude Include="AssocArrayTemplate.h" />
-    <ClInclude Include="ConsoleDraw.h" />
-    <ClInclude Include="LocalGlobalFormalVariable.h" />
+    <ClInclude Include="Extra_ConsoleDraw.h" />
+    <ClInclude Include="LocalGlobalVariables.h" />
     <ClInclude Include="Polymorph.h" />
     <ClInclude Include="ReferencesPractic.h" />
     <ClInclude Include="StructArray.h" />
     <ClInclude Include="StructEnum.h" />
-    <ClInclude Include="StructList.h" />
-    <ClInclude Include="SuperString.h" />
+    <ClInclude Include="SP_4_StructList.h" />
     <ClInclude Include="TemplateList.h" />
     <ClInclude Include="Templates.h" />
-    <ClInclude Include="Theme11.h" />
-    <ClInclude Include="Theme12.h" />
-    <ClInclude Include="VirtualFunctionsExample.h" />
+    <ClInclude Include="ClassExample1.h" />
+    <ClInclude Include="ClassExample2.h" />
+    <ClInclude Include="OOP_7_VirtualFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

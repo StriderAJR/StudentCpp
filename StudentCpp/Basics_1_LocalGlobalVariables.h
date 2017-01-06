@@ -3,14 +3,14 @@
 #include <iostream>
 using namespace std;
 
-namespace LocalGlobalFormalVariable
+namespace LocalGlobalVariables
 {
     int count;
 
     void func1();
     void func2();
 
-    void LocalGlobalFormalVariable_Main()
+    void LocalGlobalVariables_Main()
     {
         count = 0;
 

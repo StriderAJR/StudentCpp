@@ -23,16 +23,7 @@
     <ClInclude Include="StructArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConsoleDraw.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AssocArray.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="AssocArrayTemplate.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LocalGlobalFormalVariable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Polymorph.h">
@@ -44,25 +35,31 @@
     <ClInclude Include="StructEnum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StructList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SuperString.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TemplateList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Templates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Theme11.h">
+    <ClInclude Include="ClassExample1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Theme12.h">
+    <ClInclude Include="ClassExample2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VirtualFunctionsExample.h">
+    <ClInclude Include="LocalGlobalVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SP_4_StructList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOP_7_VirtualFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra_ConsoleDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOP_Extra_AssocArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
