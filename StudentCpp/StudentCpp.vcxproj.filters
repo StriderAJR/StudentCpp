@@ -38,9 +38,6 @@
     <ClInclude Include="OOP_7.1_VirtualFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OOP_2.2_StructEnum.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Templates_2_TemplateList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -74,10 +71,22 @@
     <ClInclude Include="Basics_5_Pointers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_7_StructList.h">
+    <ClInclude Include="OOP_2.1_ClassArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OOP_2.1_ClassArray.h">
+    <ClInclude Include="Basics_7_Structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_8_Union.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_9_Enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_Extra_StructEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_Extra_StructList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
