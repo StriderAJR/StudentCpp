@@ -75,7 +75,7 @@ namespace Unions
         // Поэтому число 36 идет в первой, младшей ячейке, а незначащий ноль - в левой, старшей ячейке
 
         // и снова выведем на экран
-        cout << e.oneByte << endl; // ;
+        cout << e.oneByte << endl; // $
         cout << e.twoBytes << endl; // 36
         cout << e.fourBytes << endl; // неопределенное значение
         cout << endl;
