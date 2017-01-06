@@ -151,20 +151,24 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Basics_1.1_FirstProgram.h" />
     <ClInclude Include="OOP_Extra_AssocArray.h" />
-    <ClInclude Include="AssocArrayTemplate.h" />
-    <ClInclude Include="Extra_ConsoleDraw.h" />
-    <ClInclude Include="LocalGlobalVariables.h" />
-    <ClInclude Include="Polymorph.h" />
-    <ClInclude Include="ReferencesPractic.h" />
-    <ClInclude Include="StructArray.h" />
-    <ClInclude Include="StructEnum.h" />
-    <ClInclude Include="SP_4_StructList.h" />
-    <ClInclude Include="TemplateList.h" />
-    <ClInclude Include="Templates.h" />
-    <ClInclude Include="ClassExample1.h" />
-    <ClInclude Include="ClassExample2.h" />
-    <ClInclude Include="OOP_7_VirtualFunctions.h" />
+    <ClInclude Include="Templates_Extra_AssocArrayTemplate.h" />
+    <ClInclude Include="Zzz_ConsoleDraw.h" />
+    <ClInclude Include="Basics_2_LocalGlobalVariables.h" />
+    <ClInclude Include="OOP_7.2_Polymorph.h" />
+    <ClInclude Include="Basics_3_ReferencesPractic.h" />
+    <ClInclude Include="OOP_2.1_StructArray.h" />
+    <ClInclude Include="OOP_2.2_StructEnum.h" />
+    <ClInclude Include="Basics_4_StructList.h" />
+    <ClInclude Include="Templates_2_TemplateList.h" />
+    <ClInclude Include="Templates_1_Templates.h" />
+    <ClInclude Include="OOP_1.1_ClassExample1.h" />
+    <ClInclude Include="OOP_1.2_ClassExample2.h" />
+    <ClInclude Include="OOP_7.1_VirtualFunctions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basics_1.2_FirstProgram.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

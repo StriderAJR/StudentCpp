@@ -1,8 +1,5 @@
 #include <iostream>
-#include "StructArray.h"
-#include "ConsoleDraw.h"
-#include "AssocArray.h"
-#include "Polymorph.h"
+#include "OOP_7.2_Polymorph.h"
 
 using namespace std;
 
