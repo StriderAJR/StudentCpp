@@ -1,3 +1,6 @@
+// Рассматриваемые темы:
+// Список структур
+
 #pragma once
 
 #include <iostream>

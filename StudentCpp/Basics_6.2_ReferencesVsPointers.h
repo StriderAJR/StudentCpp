@@ -1,5 +1,7 @@
-#pragma once
+// Рассматриваемые темы:
+// Ссылки и указатели
 
+#pragma once
 
 #include <iostream>
 #include <string.h>
