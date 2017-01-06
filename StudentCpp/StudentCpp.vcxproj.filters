@@ -65,9 +65,6 @@
     <ClInclude Include="Basics_4_Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_6_References.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Basics_5_Pointers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -83,10 +80,22 @@
     <ClInclude Include="Basics_9_Enum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_Extra_StructEnum.h">
+    <ClInclude Include="Basics_6.2_ReferencesVsPointers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Basics_Extra_StructList.h">
+    <ClInclude Include="Basics_6.1_References.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_Extra_1_StructEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_Extra_2_StructArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics_Extra_3_StructList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zzz_ConsoleLanguage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
