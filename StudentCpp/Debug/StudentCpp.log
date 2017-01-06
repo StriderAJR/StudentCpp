@@ -1,5 +1,0 @@
-﻿  Main.cpp
-d:\programmes\studentcpp\studentcpp\assocarray.h(51): warning C4018: '<': signed/unsigned mismatch
-d:\programmes\studentcpp\studentcpp\assocarray.h(60): warning C4715: 'AssocArray::AssocArray::operator[]': not all control paths return a value
-  StudentCpp.vcxproj -> D:\Programmes\StudentCpp\Debug\StudentCpp.exe
-  StudentCpp.vcxproj -> D:\Programmes\StudentCpp\Debug\StudentCpp.pdb (Full PDB)

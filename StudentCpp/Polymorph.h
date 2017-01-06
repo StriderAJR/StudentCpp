@@ -1,5 +1,7 @@
-#pragma once
+// Рассматриваемые темы:
+// Абстрактный класс, чисто виртуальные функции, полиморфизм
 
+#pragma once
 
 #include <iostream>
 using namespace std;
