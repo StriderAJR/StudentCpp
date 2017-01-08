@@ -170,7 +170,6 @@
     <ClInclude Include="OOP_7.2_Polymorph.h" />
     <ClInclude Include="Basics_6.2_ReferencesVsPointers.h" />
     <ClInclude Include="OOP_2.1_ClassArray.h" />
-    <ClInclude Include="Basics_Extra_1_StructEnum.h" />
     <ClInclude Include="Basics_Extra_3_StructList.h" />
     <ClInclude Include="Templates_2_TemplateList.h" />
     <ClInclude Include="Templates_1_Templates.h" />
