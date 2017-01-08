@@ -161,6 +161,7 @@
     <ClInclude Include="Basics_9_Enum.h" />
     <ClInclude Include="Basics_7_Structures.h" />
     <ClInclude Include="Basics_8_Unions.h" />
+    <ClInclude Include="Basics_Extra_1_StructEnum.h" />
     <ClInclude Include="Basics_Extra_2_StructArray.h" />
     <ClInclude Include="Basics_Extra_4_PassParams.h" />
     <ClInclude Include="OOP_Extra_AssocArray.h" />
