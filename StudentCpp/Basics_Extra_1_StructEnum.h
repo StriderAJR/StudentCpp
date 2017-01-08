@@ -23,9 +23,9 @@ namespace StructEnum
 
     int main()
     {
-        // Перечисления штука несложная
         MyStruct s;
         s.Num = 666;
+        // Перечисления штука несложная
         s.Money = Dollar;
 
         if (s.Money == Dollar)
