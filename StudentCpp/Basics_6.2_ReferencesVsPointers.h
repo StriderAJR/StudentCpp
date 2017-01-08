@@ -1,5 +1,5 @@
-// Рассматриваемые темы:
-// Ссылки и указатели
+// Р Р°СЃСЃРјР°С‚СЂРёРІР°РµРјС‹Рµ С‚РµРјС‹:
+// РЎСЃС‹Р»РєРё Рё СѓРєР°Р·Р°С‚РµР»Рё
 
 #pragma once
 
@@ -9,56 +9,56 @@ using namespace std;
  
 namespace ReferencesPractic
 {
-    int sum_by_value(int);// суммирование по значению
-    int sum_by_reference(int &);// суммирование по ссылке
-    int sum_by_pointer(int *); // суммирование по указателю
+    int sum_by_value(int);// СЃСѓРјРјРёСЂРѕРІР°РЅРёРµ РїРѕ Р·РЅР°С‡РµРЅРёСЋ
+    int sum_by_reference(int &);// СЃСѓРјРјРёСЂРѕРІР°РЅРёРµ РїРѕ СЃСЃС‹Р»РєРµ
+    int sum_by_pointer(int *); // СЃСѓРјРјРёСЂРѕРІР°РЅРёРµ РїРѕ СѓРєР°Р·Р°С‚РµР»СЋ
 
     int main()
     {
         int value = 15;
-        int& reference = value; // объявление и инициализация ссылки значением переменной value
+        int& reference = value; // РѕР±СЉСЏРІР»РµРЅРёРµ Рё РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ СЃСЃС‹Р»РєРё Р·РЅР°С‡РµРЅРёРµРј РїРµСЂРµРјРµРЅРЅРѕР№ value
 
         cout << "value     = " << value << endl;
         cout << "reference = " << reference << endl;
 
         char* string = NULL;
 
-        reference += 15; // изменяем значение переменной value посредством изменения значения в ссылке
+        reference += 15; // РёР·РјРµРЅСЏРµРј Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ value РїРѕСЃСЂРµРґСЃС‚РІРѕРј РёР·РјРµРЅРµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ РІ СЃСЃС‹Р»РєРµ
 
-        cout << "value     = " << value << endl; // смотрим, что получилось, как будет видно дальше значение поменялось как в ссылке,
-        cout << "reference = " << reference << endl; //  так и в ссылочной переменной
+        cout << "value     = " << value << endl; // СЃРјРѕС‚СЂРёРј, С‡С‚Рѕ РїРѕР»СѓС‡РёР»РѕСЃСЊ, РєР°Рє Р±СѓРґРµС‚ РІРёРґРЅРѕ РґР°Р»СЊС€Рµ Р·РЅР°С‡РµРЅРёРµ РїРѕРјРµРЅСЏР»РѕСЃСЊ РєР°Рє РІ СЃСЃС‹Р»РєРµ,
+        cout << "reference = " << reference << endl; //  С‚Р°Рє Рё РІ СЃСЃС‹Р»РѕС‡РЅРѕР№ РїРµСЂРµРјРµРЅРЅРѕР№
 
         system("pause");
 
         value = 10;
 
         cout << "sum_by_value     = " << sum_by_value(value) << endl;
-        cout << "value = " << value << endl; // значение переменной осталось неизменным
+        cout << "value = " << value << endl; // Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ РѕСЃС‚Р°Р»РѕСЃСЊ РЅРµРёР·РјРµРЅРЅС‹Рј
         cout << "sum_by_reference = " << sum_by_reference(value) << endl;
-        cout << "value = " << value << endl; // значение переменной изменилось
+        cout << "value = " << value << endl; // Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ РёР·РјРµРЅРёР»РѕСЃСЊ
         cout << "sum_by_pointer     = " << sum_by_pointer(&value) << endl;
-        cout << "value = " << value << endl; // значение переменной изменилось ещё раз
+        cout << "value = " << value << endl; // Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ РёР·РјРµРЅРёР»РѕСЃСЊ РµС‰С‘ СЂР°Р·
 
         system("pause");
 
         return 0;
     }
 
-    int sum_by_value(int value)// функция принимающая аргумент по значению
+    int sum_by_value(int value)// С„СѓРЅРєС†РёСЏ РїСЂРёРЅРёРјР°СЋС‰Р°СЏ Р°СЂРіСѓРјРµРЅС‚ РїРѕ Р·РЅР°С‡РµРЅРёСЋ
     {
         value += value;
         return value;
     }
 
-    int sum_by_reference(int& reference) // функция принимающая аргумент по ссылке
+    int sum_by_reference(int& reference) // С„СѓРЅРєС†РёСЏ РїСЂРёРЅРёРјР°СЋС‰Р°СЏ Р°СЂРіСѓРјРµРЅС‚ РїРѕ СЃСЃС‹Р»РєРµ
     {
         reference += reference;
         return reference;
     }
 
-    int sum_by_pointer(int* ptrvalue)// функция принимающая аргумент через указатель
+    int sum_by_pointer(int* ptrvalue)// С„СѓРЅРєС†РёСЏ РїСЂРёРЅРёРјР°СЋС‰Р°СЏ Р°СЂРіСѓРјРµРЅС‚ С‡РµСЂРµР· СѓРєР°Р·Р°С‚РµР»СЊ
     {
-        *ptrvalue += *ptrvalue; // арифметика с указателем
+        *ptrvalue += *ptrvalue; // Р°СЂРёС„РјРµС‚РёРєР° СЃ СѓРєР°Р·Р°С‚РµР»РµРј
         return *ptrvalue;
     }
 }
