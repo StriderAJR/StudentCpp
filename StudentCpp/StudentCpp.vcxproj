@@ -166,6 +166,7 @@
     <ClInclude Include="Basics_Extra_4_PassParams.h" />
     <ClInclude Include="OOP_Extra_AssocArray.h" />
     <ClInclude Include="Templates_Extra_AssocArrayTemplate.h" />
+    <ClInclude Include="Test.h" />
     <ClInclude Include="Zzz_ConsoleDraw.h" />
     <ClInclude Include="Basics_2.4_LocalGlobalVariables.h" />
     <ClInclude Include="OOP_7.2_Polymorph.h" />
