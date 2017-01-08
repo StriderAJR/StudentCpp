@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #include <iostream>
 using namespace std;
@@ -24,8 +24,8 @@ namespace AssocArray
         };
 
         ArrayData* _Array;
-        unsigned int _Memory = 5; // Кол-во элементов, под которые выделена память
-        int _Index = -1; // Индекс последнего элемента
+        unsigned int _Memory = 5; // РљРѕР»-РІРѕ СЌР»РµРјРµРЅС‚РѕРІ, РїРѕРґ РєРѕС‚РѕСЂС‹Рµ РІС‹РґРµР»РµРЅР° РїР°РјСЏС‚СЊ
+        int _Index = -1; // РРЅРґРµРєСЃ РїРѕСЃР»РµРґРЅРµРіРѕ СЌР»РµРјРµРЅС‚Р°
     public:
         AssocArray()
         {

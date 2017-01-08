@@ -1,5 +1,5 @@
-// Ðàññìàòðèâàåìûå òåìû:
-// Êîíñòðóêòîð êîïèðîâàíèÿ
+ï»¿// Ð Ð°ÑÑÐ¼Ð°Ñ‚Ñ€Ð¸Ð²Ð°ÐµÐ¼Ñ‹Ðµ Ñ‚ÐµÐ¼Ñ‹:
+// ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ
 
 #pragma once
 
@@ -16,7 +16,7 @@ namespace ClassExample2
 {
     const char* FILE_NAME = "Employees.txt";
 
-    class Employee // êëàññ Ñîòðóäíèê, íåìíîãî îïòèìèçèðîâàí
+    class Employee // ÐºÐ»Ð°ÑÑ Ð¡Ð¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸Ðº, Ð½ÐµÐ¼Ð½Ð¾Ð³Ð¾ Ð¾Ð¿Ñ‚Ð¸Ð¼Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ð½
     {
     private:
         char* _name;
@@ -28,10 +28,10 @@ namespace ClassExample2
     public:
         Employee(int lName = 32, int lYear = 5) : _lName(lName), _lYear(lYear)
         {
-            _name = NULL; // íóëåâîé (ïóñòîé) óêàçàòåëü
+            _name = NULL; // Ð½ÑƒÐ»ÐµÐ²Ð¾Ð¹ (Ð¿ÑƒÑÑ‚Ð¾Ð¹) ÑƒÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ
         }
 
-        Employee(const Employee &empl) // êîíñòðóêòîð êîïèðîâàíèÿ
+        Employee(const Employee &empl) // ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ
         {
             Copy(empl);
         }
@@ -43,9 +43,9 @@ namespace ClassExample2
 
         void SetData(const char* data)
         {
-            if (_name != NULL) delete[] _name; // åñëè îáúåêò óæå áûë çàïîëíåí
+            if (_name != NULL) delete[] _name; // ÐµÑÐ»Ð¸ Ð¾Ð±ÑŠÐµÐºÑ‚ ÑƒÐ¶Ðµ Ð±Ñ‹Ð» Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½
 
-            // âûïîëíÿåì îïåðàöèþ Trim(), ò.å. îáðåçàåì ïðîáåëû â êîíöå ñòðîêè:
+            // Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÑÐµÐ¼ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ Trim(), Ñ‚.Ðµ. Ð¾Ð±Ñ€ÐµÐ·Ð°ÐµÐ¼ Ð¿Ñ€Ð¾Ð±ÐµÐ»Ñ‹ Ð² ÐºÐ¾Ð½Ñ†Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸:
 
             int lengthName = _lName;
             while (lengthName > 0 && data[lengthName - 1] == ' ') lengthName--;
@@ -60,14 +60,14 @@ namespace ClassExample2
 
         void Print()
         {
-            cout << _name << " " << _birthYear << " ã.ð, " << _pay << " ðóá.\n";
+            cout << _name << " " << _birthYear << " Ð³.Ñ€, " << _pay << " Ñ€ÑƒÐ±.\n";
         }
 
-        int GetBirthYear() const { return _birthYear; } // îáðàòèòå âíèìàíèå íà 'const'
+        int GetBirthYear() const { return _birthYear; } // Ð¾Ð±Ñ€Ð°Ñ‚Ð¸Ñ‚Ðµ Ð²Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ Ð½Ð° 'const'
 
         float GetPay() const { return _pay; }
 
-        void Copy(const Employee &empl) // êîïèðîâàíèå îáúåêòà
+        void Copy(const Employee &empl) // ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¾Ð±ÑŠÐµÐºÑ‚Ð°
         {
             _lName = empl._lName;
             _lYear = empl._lYear;
@@ -82,13 +82,13 @@ namespace ClassExample2
     };
 
 
-    // êîíñòðóêòîð êîïèðîâàíèÿ ñðàáàòûâàåò 2 ðàçà
+    // ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑ€Ð°Ð±Ð°Ñ‚Ñ‹Ð²Ð°ÐµÑ‚ 2 Ñ€Ð°Ð·Ð°
     Employee PrintLine(Employee empl) { cout << "\n"; empl.Print(); return empl; }
 
-    // êîíñòðóêòîð êîïèðîâàíèÿ ñðàáàòûâàåò 1 ðàç
+    // ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑ€Ð°Ð±Ð°Ñ‚Ñ‹Ð²Ð°ÐµÑ‚ 1 Ñ€Ð°Ð·
     Employee PrintLineRef(Employee &empl) { cout << "\n"; empl.Print(); return empl; }
 
-    // êîíñòðóêòîð êîïèðîâàíèÿ íå ñðàáàòûâàåò
+    // ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ð½Ðµ ÑÑ€Ð°Ð±Ð°Ñ‚Ñ‹Ð²Ð°ÐµÑ‚
     Employee& PrintLineRef2(Employee &empl) { cout << "\n"; empl.Print(); return empl; }
 
 
@@ -96,16 +96,16 @@ namespace ClassExample2
     {
         setlocale(LC_ALL, "Russian");
 
-        // îòêðûòèÿ ôàéëà ñ äàííûìè î ñîòðóäíèêàõ
+        // Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ñ Ñ„Ð°Ð¹Ð»Ð° Ñ Ð´Ð°Ð½Ð½Ñ‹Ð¼Ð¸ Ð¾ ÑÐ¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ°Ñ…
 
         ifstream f(FILE_NAME);
-        if (!f) { cout << "Ôàéë íå íàéäåí"; return; }
+        if (!f) { cout << "Ð¤Ð°Ð¹Ð» Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½"; return; }
 
-        Employee employees[100]; // ìàññèâ ñîòðóäíèêîâ, ñðàáîòàë default êîíñòðóêòîð
+        Employee employees[100]; // Ð¼Ð°ÑÑÐ¸Ð² ÑÐ¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ¾Ð², ÑÑ€Ð°Ð±Ð¾Ñ‚Ð°Ð» default ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€
 
         int i = 0;
 
-        // ñ÷èòûâàíèå ñîòðóäíèêîâ èç ôàéëà
+        // ÑÑ‡Ð¸Ñ‚Ñ‹Ð²Ð°Ð½Ð¸Ðµ ÑÐ¾Ñ‚Ñ€ÑƒÐ´Ð½Ð¸ÐºÐ¾Ð² Ð¸Ð· Ñ„Ð°Ð¹Ð»Ð°
 
         char buf[255];
         while (f.getline(buf, 254))
@@ -116,31 +116,31 @@ namespace ClassExample2
         int emplCount = i;
         if (!emplCount) return;
 
-        // äåìîíñòðàöèÿ ñòàòè÷åñêîãî ñîçäàíèÿ îáúåêòîâ è ðàáîòû êîíñòðóêòîðà êîïèðîâàíèÿ
+        // Ð´ÐµÐ¼Ð¾Ð½ÑÑ‚Ñ€Ð°Ñ†Ð¸Ñ ÑÑ‚Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ð³Ð¾ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ð¾Ð±ÑŠÐµÐºÑ‚Ð¾Ð² Ð¸ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ð° ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ
 
         Employee empl = employees[0];
         empl.Print();
 
-        // ïðèìåðû ñîçäàíèÿ îáúåêòîâ
+        // Ð¿Ñ€Ð¸Ð¼ÐµÑ€Ñ‹ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ð¾Ð±ÑŠÐµÐºÑ‚Ð¾Ð²
 
         Employee empl1;
         Employee empl2(32, 5);
         Employee empl3 = Employee(32, 5);
 
-        // âûçîâ ôóíêöèè è ïåðåäà÷à â íåå îáúåêòà
+        // Ð²Ñ‹Ð·Ð¾Ð² Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð¸ Ð¿ÐµÑ€ÐµÐ´Ð°Ñ‡Ð° Ð² Ð½ÐµÐµ Ð¾Ð±ÑŠÐµÐºÑ‚Ð°
 
         Employee e1 = PrintLine(empl);
         Employee e2 = PrintLineRef(empl);
-        Employee e3 = PrintLineRef2(empl); // e3 - ýòî ññûëêà íà empl
+        Employee e3 = PrintLineRef2(empl); // e3 - ÑÑ‚Ð¾ ÑÑÑ‹Ð»ÐºÐ° Ð½Ð° empl
 
-        // ÂÍÈÌÀÍÈÅ, êîíñòðóêòîð êîïèðîâàíèÿ íå ïîìîãàåò â òàêîì ñëó÷àå:
+        // Ð’ÐÐ˜ÐœÐÐÐ˜Ð•, ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ð½Ðµ Ð¿Ð¾Ð¼Ð¾Ð³Ð°ÐµÑ‚ Ð² Ñ‚Ð°ÐºÐ¾Ð¼ ÑÐ»ÑƒÑ‡Ð°Ðµ:
         // empl1 = empl; !!!
-        // â ýòîì ñëó÷àå íåîáõîäèìî ïåðåãðóæàòü îïåðàöèþ '='
-        // âûõîä:
+        // Ð² ÑÑ‚Ð¾Ð¼ ÑÐ»ÑƒÑ‡Ð°Ðµ Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ¶Ð°Ñ‚ÑŒ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ '='
+        // Ð²Ñ‹Ñ…Ð¾Ð´:
 
         empl1.Copy(empl);
 
-        // äèíàìè÷åñêèé ìàññèâ îáúåêòîâ
+        // Ð´Ð¸Ð½Ð°Ð¼Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¼Ð°ÑÑÐ¸Ð² Ð¾Ð±ÑŠÐµÐºÑ‚Ð¾Ð²
 
         Employee* employees2 = new Employee[emplCount];
 

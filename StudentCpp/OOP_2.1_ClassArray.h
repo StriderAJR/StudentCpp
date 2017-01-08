@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include <iostream>
 
 using namespace std;
@@ -99,17 +99,17 @@ namespace ClassArray
 
         char* buf = new char[255];
 
-        cout << "Ââåäèòå íàçâàíèå êíèãè:";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐºÐ½Ð¸Ð³Ð¸:";
 
         cin.getline(buf, 255);
         name = setStr(buf);
 
-        cout << "Ââåäèòå àâòîðà êíèãè:";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð°Ð²Ñ‚Ð¾Ñ€Ð° ÐºÐ½Ð¸Ð³Ð¸:";
 
         cin.getline(buf, 255);
         author = setStr(buf);
 
-        cout << "Ââåäèòå ãîä èçäàíèÿ êíèãè:";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð³Ð¾Ð´ Ð¸Ð·Ð´Ð°Ð½Ð¸Ñ ÐºÐ½Ð¸Ð³Ð¸:";
 
         cin.getline(buf, 255);
         year = (short)atoi(buf);

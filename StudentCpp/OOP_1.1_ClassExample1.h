@@ -1,5 +1,5 @@
-// Рассматриваемые темы:
-// Класс, объект, конструктор, деструктор.
+п»ї// Р Р°СЃСЃРјР°С‚СЂРёРІР°РµРјС‹Рµ С‚РµРјС‹:
+// РљР»Р°СЃСЃ, РѕР±СЉРµРєС‚, РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ, РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 
 #pragma once
 
@@ -13,9 +13,9 @@ using namespace std;
 
 namespace ClassExample1
 {
-    const char* FILE_NAME = "Employees.txt"; // файл в кодировке Win1251
+    const char* FILE_NAME = "Employees.txt"; // С„Р°Р№Р» РІ РєРѕРґРёСЂРѕРІРєРµ Win1251
 
-    class Employee // класс Сотрудник
+    class Employee // РєР»Р°СЃСЃ РЎРѕС‚СЂСѓРґРЅРёРє
     {
     private:
         char* _name;
@@ -43,7 +43,7 @@ namespace ClassExample1
 
         void Print()
         {
-            cout << _name << " " << _birthYear << " г.р, " << _pay << " руб.\n";
+            cout << _name << " " << _birthYear << " Рі.СЂ, " << _pay << " СЂСѓР±.\n";
         }
 
         int GetBirthYear() { return _birthYear; }
@@ -56,16 +56,16 @@ namespace ClassExample1
     {
         setlocale(LC_ALL, "Russian");
 
-        // открытия файла с данными о сотрудниках
+        // РѕС‚РєСЂС‹С‚РёСЏ С„Р°Р№Р»Р° СЃ РґР°РЅРЅС‹РјРё Рѕ СЃРѕС‚СЂСѓРґРЅРёРєР°С…
 
         ifstream f(FILE_NAME);
-        if (!f) { cout << "Файл не найден";  _getch(); return; }
+        if (!f) { cout << "Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ";  _getch(); return; }
 
-        Employee employees[100]; // массив сотрудников, сработал default конструктор
+        Employee employees[100]; // РјР°СЃСЃРёРІ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ, СЃСЂР°Р±РѕС‚Р°Р» default РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 
         int i = 0;
 
-        // считывание сотрудников из файла
+        // СЃС‡РёС‚С‹РІР°РЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ РёР· С„Р°Р№Р»Р°
 
         char buf[255];
         while (f.getline(buf, 254))
@@ -75,7 +75,7 @@ namespace ClassExample1
 
         int emplCount = i;
 
-        // поиск сотрудников по году рождения
+        // РїРѕРёСЃРє СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ РїРѕ РіРѕРґСѓ СЂРѕР¶РґРµРЅРёСЏ
 
         int year = 1984;
 
@@ -94,7 +94,7 @@ namespace ClassExample1
 
         if (count)
         {
-            cout << "\n" << "Средний оклад " << sumPay / count << " руб. " << year << " г.р.";
+            cout << "\n" << "РЎСЂРµРґРЅРёР№ РѕРєР»Р°Рґ " << sumPay / count << " СЂСѓР±. " << year << " Рі.СЂ.";
         }
     }
 }
