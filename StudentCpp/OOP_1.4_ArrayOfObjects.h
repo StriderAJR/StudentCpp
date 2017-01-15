@@ -1,4 +1,7 @@
-﻿#pragma once
+﻿// Рассматриваемые темы:
+// Массив объектов
+
+#pragma once
 #include <iostream>
 
 using namespace std;

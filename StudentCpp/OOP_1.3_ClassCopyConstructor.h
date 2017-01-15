@@ -12,7 +12,7 @@
 
 using namespace std;
 
-namespace ClassExample2
+namespace ClassCopyConstructor
 {
     const char* FILE_NAME = "Employees.txt";
 

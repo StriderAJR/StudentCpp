@@ -1,5 +1,6 @@
 ﻿// Рассматриваемые темы:
-// Класс, объект, конструктор, деструктор
+// Класс, объект, жизненный цикл объекта 
+// Конструктор, деструктор
 
 #pragma once
 
@@ -11,7 +12,7 @@
 
 using namespace std;
 
-namespace ClassExample1
+namespace ClassBasics
 {
     const char* FILE_NAME = "Employees.txt"; // файл в кодировке Win1251
 

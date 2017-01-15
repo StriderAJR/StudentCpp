@@ -170,20 +170,24 @@
     <ClInclude Include="Basics_Extra_2_StructArray.h" />
     <ClInclude Include="Basics_Extra_4_PassParams.h" />
     <ClInclude Include="Basics_7.2_TwoDimArray.h" />
+    <ClInclude Include="OOP_1.1_ClassBasics.h" />
+    <ClInclude Include="OOP_2_OperatorOverloading.h" />
+    <ClInclude Include="OOP_3_Inheritance.h" />
+    <ClInclude Include="OOP_4.2_AbstactClass.h" />
     <ClInclude Include="OOP_Extra_AssocArray.h" />
     <ClInclude Include="Templates_Extra_AssocArrayTemplate.h" />
     <ClInclude Include="Zzz_AdvancedStreamIO.h" />
     <ClInclude Include="Zzz_ConsoleDraw.h" />
     <ClInclude Include="Basics_2.4_LocalGlobalVariables.h" />
-    <ClInclude Include="OOP_7.2_Polymorph.h" />
+    <ClInclude Include="OOP_5_Polymorph.h" />
     <ClInclude Include="Basics_6.2_ReferencesVsPointers.h" />
-    <ClInclude Include="OOP_2.1_ClassArray.h" />
+    <ClInclude Include="OOP_1.4_ArrayOfObjects.h" />
     <ClInclude Include="Basics_Extra_3_StructList.h" />
     <ClInclude Include="Templates_2_TemplateList.h" />
     <ClInclude Include="Templates_1_Templates.h" />
-    <ClInclude Include="OOP_1.1_ClassExample1.h" />
-    <ClInclude Include="OOP_1.2_ClassExample2.h" />
-    <ClInclude Include="OOP_7.1_VirtualFunctions.h" />
+    <ClInclude Include="OOP_1.2_ClassLifeCycle.h" />
+    <ClInclude Include="OOP_1.3_ClassCopyConstructor.h" />
+    <ClInclude Include="OOP_4.1_VirtualFunctions.h" />
     <ClInclude Include="Zzz_ConsoleLanguage.h" />
   </ItemGroup>
   <ItemGroup>
