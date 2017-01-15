@@ -21,7 +21,7 @@ namespace StructEnum
         MoneyType Money;
     };
 
-    int main()
+    void main()
     {
         MyStruct s;
         s.Num = 666;
