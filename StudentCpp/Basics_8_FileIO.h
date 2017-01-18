@@ -45,7 +45,7 @@ namespace FileInputOutput
 
         if (!file)
         {
-            cout << "No kina. Electricity is no more.";
+            cout << "No kino. Electricity is no more.";
             return;
         }
 
