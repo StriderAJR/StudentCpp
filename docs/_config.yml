@@ -2,3 +2,4 @@ theme: jekyll-theme-midnight
 markdown: kramdown
 title: Заметки на коленке
 description: Мои извращенские комментарии о С++
+show_downloads: "true"
