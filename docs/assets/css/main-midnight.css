@@ -11,6 +11,7 @@ section {
 .content-wrapper{
   width: 60%;
   margin: auto;
+  min-width: 500px;
 }
 
 td#sidebar{
