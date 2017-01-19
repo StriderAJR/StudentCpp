@@ -35,9 +35,11 @@
           <h1>{{ page.title | default: site.github.repository_name }}</h1>
           <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->          
         </div>
-
-        {{ content }}
-
+        <div class="content-wrapper">
+          
+          {{ content }}
+          
+        </div>
       </section>
 
     </div>
