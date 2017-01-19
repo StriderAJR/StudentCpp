@@ -5,12 +5,16 @@
 }
 
 section {
-  max-width: 100% !important;
+  max-width: 80% !important;
 }
 
 .content-wrapper{
   width: 80%;
   margin: auto;
+}
+
+td{
+  vertical-align: top !important;
 }
 
 td#sidebar{
