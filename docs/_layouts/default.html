@@ -45,8 +45,7 @@
               </td>
               <td id="sidebar">
                 <div>
-                  {% capture my_include %}{% include sidebar.md %}{% endcapture %}
-                  {{ my_include | markdownify }}
+                  {% include contents.html %}
                 </div>
               </td>
             </tr>
