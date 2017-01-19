@@ -1,6 +1,6 @@
 Такая программа состоит из одного-единственного файла main.cpp со следующим содержимым
 
-```C++
+```c++
 #include <iostream>
 
 void main()
@@ -9,7 +9,13 @@ void main()
     system("pause");
 }
 ```
-
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
 Это самая простая программа, которая выводит на консоль сообщение "Hello, World!". Разберем ее пошагово.
 
 ### Подключение библиотек
