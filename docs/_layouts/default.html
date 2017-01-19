@@ -36,17 +36,25 @@
           <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->          
         </div>
         <div class="content-wrapper">
-          <div>
-            {{ content }}
-          </div>
-          <aside id="sidebar">
-            Оглавление
-            <ul>
-              <li>Пункт 1</li>
-              <li>Пункт 2</li>
-              <li>Пункт 3</li>
-            </ul>
-          </aside>
+          <table style="width: 100%;">
+            <tr>
+              <td>
+                <div>
+                  {{ content }}
+                </div>
+              </td>
+              <td style="width: 350px;">
+                <div>
+                  Оглавление
+                  <ul>
+                    <li>Пункт 1</li>
+                    <li>Пункт 2</li>
+                    <li>Пункт 3</li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </table>
         </div>
       </section>
 
