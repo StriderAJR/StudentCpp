@@ -13,14 +13,6 @@ section {
   margin: auto;
 }
 
-td{
-  /*
-  width: 250px;
-  vertical-align: top !important;
-  font-size: 12px;
-  */
-}
-
 td#sidebar{
   width: 250px !important;
   vertical-align: top !important;
