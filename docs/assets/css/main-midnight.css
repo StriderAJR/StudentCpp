@@ -1,1 +1,14 @@
+.wrapper{
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: auto !important;
+}
 
+.section {
+  max-width: 100% !important;
+  margin: auto !important;
+}
+
+.content-wrapper{
+  width: 100%;
+}
