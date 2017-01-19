@@ -1,6 +1,7 @@
 ---
 layout: default
 title: C++. Заметки на коленке
+synopsis: Мои извращенные комментарии о С++
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
