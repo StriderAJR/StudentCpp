@@ -71,7 +71,7 @@ namespace ConsoleDraw
         SetTextColor(device_context, RGB(255, 0, 0));
         SetBkColor(device_context, RGB(0, 255, 0));
 
-        TextOut(device_context, 150, 50, "This is a text", 14);
+        TextOut(device_context, 150, 50, LPCWCH("This is a text"), 14);
 
         ReleaseDC(console_window, device_context);
     }
