@@ -47,13 +47,16 @@ using namespace std;
 
 int main()
 {
+    setlocale(0, "Rus");
+
+    Cycles::main();
 //    StructArray::main();
 //    ConsoleDraw::main();
 //    AssocArray::main();
 //    Polymorph::main();
 //    ClassArray::main();
 //    ConsoleLanguage::main();
-    Unions::main();
+//    Unions::main();
 //    FileInputOutput::main();
 
 //    system("pause");
