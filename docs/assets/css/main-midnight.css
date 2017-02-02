@@ -1,0 +1,21 @@
+.wrapper{
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: auto !important;
+}
+
+section {
+  max-width: 100% !important;
+}
+
+.content-wrapper{
+  width: 60%;
+  margin: auto;
+  min-width: 500px;
+}
+
+td#sidebar{
+  width: 250px !important;
+  vertical-align: top !important;
+  font-size: 12px !important;
+}
