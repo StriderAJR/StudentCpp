@@ -43,9 +43,9 @@
 #include "Zzz_ConsoleDraw.h"
 #include "Zzz_ConsoleLanguage.h"
 
-using namespace std;    
+using namespace std;
 
-void main()
+int main()
 {
 //    StructArray::main();
 //    ConsoleDraw::main();
@@ -56,5 +56,7 @@ void main()
     Unions::main();
 //    FileInputOutput::main();
 
-    system("pause");
+//    system("pause");
+
+    return 0;
 }
