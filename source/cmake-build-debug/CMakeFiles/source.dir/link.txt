@@ -1,3 +1,0 @@
-"C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\source.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\source.dir/objects.a @CMakeFiles\source.dir\objects1.rsp
-C:\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\source.dir/objects.a -Wl,--no-whole-archive  -o source.exe -Wl,--out-implib,libsource.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\source.dir\linklibs.rsp
