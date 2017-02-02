@@ -71,7 +71,7 @@ namespace ConsoleDraw
         SetTextColor(device_context, RGB(255, 0, 0));
         SetBkColor(device_context, RGB(0, 255, 0));
 
-        TextOut(device_context, 150, 50, LPCWCH("This is a text"), 14);
+        TextOut(device_context, 150, 50, LPCSTR("This is a text"), 14);
 
         ReleaseDC(console_window, device_context);
     }
@@ -95,10 +95,10 @@ namespace ConsoleDraw
 
     void main()
     {
-        //    DrawLine(100, 100, 100, 200);
-        //    DrawRectangle(50, 50, 200, 100);
-        //    DrawEllipse();
-        //    DrawText();
+        DrawLine(100, 100, 100, 200);
+        DrawRectangle(50, 50, 200, 100);
+        DrawEllipse();
+        DrawText();
         DrawSmile();
 
         cin.ignore();

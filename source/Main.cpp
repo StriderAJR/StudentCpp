@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 // Подключаем все подпрограммы
 #include "Basics_1_FirstProgram.h"
