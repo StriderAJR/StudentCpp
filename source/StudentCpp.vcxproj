@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FCDF6904-2C97-4AB2-878F-51194C2D605E}</ProjectGuid>
+    <ProjectGuid>{4B9F9175-D5FE-4B4B-8079-8A1809E0F559}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>StudentCpp</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -71,7 +71,6 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -88,9 +87,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Programmes\StudentCpp\StudentCpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -148,50 +146,48 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="Basics_10_Unions.h" />
+    <ClInclude Include="Basics_11_Enum.h" />
     <ClInclude Include="Basics_1_FirstProgram.h" />
-    <ClInclude Include="Basics_2.3_LocalVariables.h" />
-    <ClInclude Include="Basics_3_Cycles.h" />
     <ClInclude Include="Basics_2.1_Variables.h" />
+    <ClInclude Include="Basics_2.2_GlobalVariables.h" />
+    <ClInclude Include="Basics_2.3_LocalVariables.h" />
+    <ClInclude Include="Basics_2.4_LocalGlobalVariables.h" />
+    <ClInclude Include="Basics_3_Cycles.h" />
     <ClInclude Include="Basics_4_Functions.h" />
     <ClInclude Include="Basics_5_Pointers.h" />
     <ClInclude Include="Basics_6.1_References.h" />
-    <ClInclude Include="Basics_8_FileIO.h" />
-    <ClInclude Include="Basics_11_Enum.h" />
+    <ClInclude Include="Basics_6.2_ReferencesVsPointers.h" />
     <ClInclude Include="Basics_7.1_StaticArray.h" />
-    <ClInclude Include="Basics_9_Structures.h" />
-    <ClInclude Include="Basics_7.5_TwoDimDynamicArray.h" />
-    <ClInclude Include="Basics_7.4_DynamicArray.h" />
+    <ClInclude Include="Basics_7.2_TwoDimArray.h" />
     <ClInclude Include="Basics_7.3_MultDimArray.h" />
-    <ClInclude Include="Basics_10_Unions.h" />
+    <ClInclude Include="Basics_7.4_DynamicArray.h" />
+    <ClInclude Include="Basics_7.5_TwoDimDynamicArray.h" />
+    <ClInclude Include="Basics_8_FileIO.h" />
+    <ClInclude Include="Basics_9_Structures.h" />
     <ClInclude Include="Basics_Extra_1_StructEnum.h" />
     <ClInclude Include="Basics_Extra_2_StructArray.h" />
+    <ClInclude Include="Basics_Extra_3_StructList.h" />
     <ClInclude Include="Basics_Extra_4_PassParams.h" />
-    <ClInclude Include="Basics_7.2_TwoDimArray.h" />
     <ClInclude Include="OOP_1.1_ClassBasics.h" />
+    <ClInclude Include="OOP_1.2_ClassLifeCycle.h" />
+    <ClInclude Include="OOP_1.3_ClassCopyConstructor.h" />
+    <ClInclude Include="OOP_1.4_ArrayOfObjects.h" />
     <ClInclude Include="OOP_2_OperatorOverloading.h" />
     <ClInclude Include="OOP_3_Inheritance.h" />
+    <ClInclude Include="OOP_4.1_VirtualFunctions.h" />
     <ClInclude Include="OOP_4.2_AbstactClass.h" />
+    <ClInclude Include="OOP_5_Polymorph.h" />
     <ClInclude Include="OOP_Extra_AssocArray.h" />
+    <ClInclude Include="Templates_1_Templates.h" />
+    <ClInclude Include="Templates_2_TemplateList.h" />
     <ClInclude Include="Templates_Extra_AssocArrayTemplate.h" />
     <ClInclude Include="Zzz_AdvancedStreamIO.h" />
     <ClInclude Include="Zzz_ConsoleDraw.h" />
-    <ClInclude Include="Basics_2.4_LocalGlobalVariables.h" />
-    <ClInclude Include="OOP_5_Polymorph.h" />
-    <ClInclude Include="Basics_6.2_ReferencesVsPointers.h" />
-    <ClInclude Include="OOP_1.4_ArrayOfObjects.h" />
-    <ClInclude Include="Basics_Extra_3_StructList.h" />
-    <ClInclude Include="Templates_2_TemplateList.h" />
-    <ClInclude Include="Templates_1_Templates.h" />
-    <ClInclude Include="OOP_1.2_ClassLifeCycle.h" />
-    <ClInclude Include="OOP_1.3_ClassCopyConstructor.h" />
-    <ClInclude Include="OOP_4.1_VirtualFunctions.h" />
     <ClInclude Include="Zzz_ConsoleLanguage.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Basics_2.2_GlobalVariables.h" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
