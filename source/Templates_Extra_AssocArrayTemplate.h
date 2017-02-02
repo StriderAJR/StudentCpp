@@ -16,7 +16,7 @@ namespace AssocArrayTemplate
 
             ArrayData() {}
 
-            ArrayData(char* key)
+            ArrayData(const char* key)
             {
                 Key = new char[strlen(key) + 1];
                 strcpy(Key, key);
@@ -38,7 +38,7 @@ namespace AssocArrayTemplate
             delete[] _Array;
         }
 
-        T& operator [](char* key)
+        T& operator [](const char* key)
         {
             for (int i = 0; i <= _Index; i++)
             {
@@ -68,7 +68,8 @@ namespace AssocArrayTemplate
         cout << arr["First"] << endl;
 
         AssocArray<char*> arr2;
-        arr2["1"] = "Hello!";
+        char str[] = "Hello!";
+        arr2["1"] = str;
         cout << arr2["1"] << endl;
     }
 }

@@ -15,7 +15,7 @@ namespace AssocArray
 
             ArrayData() {}
 
-            ArrayData(char* key)
+            ArrayData(const char* key)
             {
                 Key = new char[strlen(key) + 1];
                 strcpy(Key, key);
@@ -37,7 +37,7 @@ namespace AssocArray
             delete[] _Array;
         }
 
-        int& operator [](char* key)
+        int& operator [](const char* key)
         {
             for (int i = 0; i <= _Index; i++)
             {

@@ -105,7 +105,7 @@ namespace Templates
         {
             if (index > LastIndex)
             {
-                throw new exception("Index is out of range.");
+//                throw new exception("Index is out of range.");
             }
             return Elements[index];
         }
@@ -114,7 +114,7 @@ namespace Templates
         {
             if (index > LastIndex)
             {
-                throw new exception("Index is out of range.");
+//                throw new exception("Index is out of range.");
             }
             return Elements[index];
         }
@@ -128,8 +128,8 @@ namespace Templates
                     cout << ", ";
             }
         }
-        template <class T>
-        friend ostream& operator<<(ostream& os, const List<T>& l);
+        template <class T2>
+        friend ostream& operator<<(ostream& os, const List<T2>& l);
     };
 
     template <class T>

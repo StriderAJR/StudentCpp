@@ -20,21 +20,21 @@ namespace LocalGlobalVariables
         setlocale(LC_ALL, "rus");
 
         int t;
-        scanf("%d%*c", &t);
+        cin >> t;
 
         if (t == 1)
         {
             char buf[80];
 
-            printf("Введите имя:");
-            scanf(buf);
+            cout << "Введите имя:";
+            cin >> buf;
         }
 
         func1(); func2(); func1();
 
         cout << count << endl;
 
-        system("pause");
+//        system("pause");
     }
 
     void func1()
