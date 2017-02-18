@@ -19,9 +19,7 @@ namespace StructList
     struct Node
     {
         Book data;
-
         Node* next;
-        Node* prev;
     };
 
     // Используем глобальную переменную в качестве исключения,
@@ -30,6 +28,9 @@ namespace StructList
     // избегаем всеми правдами и неправдами.
     // Их использование оправдано только в сложных и запутанных алгоритмах.
     Node* head = nullptr;
+    // Если мы хотим добавлять новые элементы в конец списка,
+    // то для удобства можно еще хранить указатель на последний элемент списка
+    Node* last = nullptr;
     // NULL = 0
     // nullptr - пустой указатель
     // Разница в том, что
@@ -37,26 +38,31 @@ namespace StructList
     // nullptr - ключевое слово и обозначает тип данных УКАЗАТЕЛЬ, значение которого равно 0
     // Например, nullptr используется для  перегрузок библиотечных функций, где явно нужно использовать тип данных указатель
 
-    void addFirst(Book book)
+    void add(Book book)
     {
         Node* temp = new Node;
         temp->data = book;
         temp->next = NULL;
-        temp->prev = NULL;
 
         if (head == NULL)
         {
             head = temp;
+            last = temp;
             return;
         }
 
-        temp->next = head;
-        head->prev = temp;
-        head = temp;
+        last->next = temp;
+        last = temp;
     }
 
     void print()
     {
+        if(head == nullptr)
+        {
+            cout << "List is empty";
+            return;
+        }
+
         Node* temp = head;
         while (temp != nullptr)
         {
@@ -65,11 +71,11 @@ namespace StructList
             // В этой строчке мы сохраняем в переменную адрес следующего элемента
             temp = temp->next;
         }
+
     }
 
     void clear()
     {
-
         while (head != nullptr)
         {
             // Сначала высвобождаем всю память, выделенную
@@ -88,29 +94,38 @@ namespace StructList
     {
         setlocale(LC_ALL, "Rus");
 
-        int arraySize = 3;
-
-        for (int i = 0; i < arraySize; i++)
+        // Вводить книги будем до тех пор, пока пользователь не скажет "хватит"
+        char answer = 'y';
+        while(answer == 'y' || answer == 'Y')
         {
-            Book book;
+            char* buf = new char[255];
+            Book newBook;
 
-            char* buff = new char[255];
-            cout << "Книга " << i << ". Название: ";
-            cin >> buff;
+            cout << "Creating new book." << endl;
 
-            book.Name = new char[strlen(buff) + 1];
-            strcpy(book.Name, buff);
-            book.Name[strlen(buff)] = '\0';
+            cout << "Name: ";
+            cin >> buf;
+            newBook.Name = new char[strlen(buf)];
+            strcpy(newBook.Name, buf);
 
-            cout << "Книга " << i << ". Год: ";
-            cin >> book.Year;
+            cout << "Year: ";
+            cin >> newBook.Year;
 
-            addFirst(book);
+            add(newBook);
+
+            cout << "Continue? y/n ";
+            cin >> answer;
         }
 
         print();
 
         // Как удалить весь список?
         clear();
+
+        // Домашнее задание
+        // 1. Реализовать вставку в список по индексу
+        // 2. Сделать список двусвязным
+        // 2.1. Сделать вывод сначала до конца
+        // 2.2. Сделать вывод с конца в начало
     }
 }
