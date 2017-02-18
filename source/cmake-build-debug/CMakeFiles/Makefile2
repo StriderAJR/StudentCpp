@@ -53,10 +53,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Programmes\StudentCpp\source
+CMAKE_SOURCE_DIR = D:\dev\StudentCpp\source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Programmes\StudentCpp\source\cmake-build-debug
+CMAKE_BINARY_DIR = D:\dev\StudentCpp\source\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/source.dir
@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = D:\Programmes\StudentCpp\source\cmake-build-debug
 CMakeFiles/source.dir/all:
 	$(MAKE) -f CMakeFiles\source.dir\build.make CMakeFiles/source.dir/depend
 	$(MAKE) -f CMakeFiles\source.dir\build.make CMakeFiles/source.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programmes\StudentCpp\source\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target source"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\dev\StudentCpp\source\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target source"
 .PHONY : CMakeFiles/source.dir/all
 
 # Include target in all.
@@ -75,9 +75,9 @@ all: CMakeFiles/source.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/source.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programmes\StudentCpp\source\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\dev\StudentCpp\source\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/source.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programmes\StudentCpp\source\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\dev\StudentCpp\source\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/source.dir/rule
 
 # Convenience name for target.
