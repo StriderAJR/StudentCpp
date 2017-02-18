@@ -406,4 +406,4 @@ fabric.properties
 
 # End of https://www.gitignore.io/api/intellij
 
-cmake-build-debug/
+source/cmake-build-debug/
