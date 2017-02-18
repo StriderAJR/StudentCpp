@@ -47,9 +47,9 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Rus");
+    setlocale(0, "Rus");
 
-//    Cycles::main();
+    Cycles::main();
 //    StructArray::main();
 //    ConsoleDraw::main();
 //    AssocArray::main();
@@ -58,7 +58,6 @@ int main()
 //    ConsoleLanguage::main();
 //    Unions::main();
 //    FileInputOutput::main();
-    StructList::main();
 
 //    system("pause");
 
