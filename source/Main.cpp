@@ -49,7 +49,7 @@ int main()
 {
     setlocale(0, "Rus");
 
-    Cycles::main();
+//    Cycles::main();
 //    StructArray::main();
 //    ConsoleDraw::main();
 //    AssocArray::main();
@@ -58,6 +58,7 @@ int main()
 //    ConsoleLanguage::main();
 //    Unions::main();
 //    FileInputOutput::main();
+    Variables::main();
 
 //    system("pause");
 
