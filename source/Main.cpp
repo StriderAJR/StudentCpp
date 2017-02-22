@@ -59,6 +59,7 @@ int main()
 //    Unions::main();
 //    FileInputOutput::main();
 //    Variables::main();
+    GlobalVariables::main();
 
 //    system("pause");
 
