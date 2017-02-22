@@ -58,7 +58,7 @@ int main()
 //    ConsoleLanguage::main();
 //    Unions::main();
 //    FileInputOutput::main();
-    Variables::main();
+//    Variables::main();
 
 //    system("pause");
 
