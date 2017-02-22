@@ -63,18 +63,18 @@ namespace ConsoleDraw
         ReleaseDC(console_window, device_context);
     }
 
-    void DrawText()
-    {
-        HWND console_window = GetConsoleWindow();
-        HDC device_context = GetDC(console_window);
-
-        SetTextColor(device_context, RGB(255, 0, 0));
-        SetBkColor(device_context, RGB(0, 255, 0));
-
-        TextOut(device_context, 150, 50, LPCSTR("This is a text"), 14);
-
-        ReleaseDC(console_window, device_context);
-    }
+//    void DrawText()
+//    {
+//        HWND console_window = GetConsoleWindow();
+//        HDC device_context = GetDC(console_window);
+//
+//        SetTextColor(device_context, RGB(255, 0, 0));
+//        SetBkColor(device_context, RGB(0, 255, 0));
+//
+//        TextOut(device_context, 150, 50, LPCSTR("This is a text"), 14); // Работает только в VS. Для CLion нужно подумать
+//
+//        ReleaseDC(console_window, device_context);
+//    }
 
     void DrawSmile()
     {
@@ -98,7 +98,7 @@ namespace ConsoleDraw
         DrawLine(100, 100, 100, 200);
         DrawRectangle(50, 50, 200, 100);
         DrawEllipse();
-        DrawText();
+//        DrawText();
         DrawSmile();
 
         cin.ignore();
