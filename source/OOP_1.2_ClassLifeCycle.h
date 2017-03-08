@@ -12,7 +12,7 @@
 
 using namespace std;
 
-namespace ClassBasics
+namespace ClassLifeCycle
 {
     const char* FILE_NAME = "Employees.txt"; // файл в кодировке Win1251
 

@@ -60,8 +60,10 @@ int main()
 //    FileInputOutput::main();
 //    Variables::main();
 //    GlobalVariables::main();
-    LocalVariables::main();
+//    LocalVariables::main();
 //    system("pause");
+
+	ClassBasics::main();
 
     return 0;
 }

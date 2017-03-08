@@ -17,7 +17,7 @@ namespace LocalVariables
         cout << c << endl; // Ошибки не будет
     } // <-- Конец блока кода фун-ции Func
 
-    int main()
+    void main()
     { // <-- Начало блока кода фун-ции main
         int a = 1;
         for(int i = 0; i < 3; i++)
