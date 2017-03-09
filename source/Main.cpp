@@ -1,5 +1,3 @@
-#include <iostream>
-
 // Подключаем все подпрограммы
 #include "Basics_1_FirstProgram.h"
 #include "Basics_2.1_Variables.h"
@@ -26,8 +24,9 @@
 #include "Basics_Extra_4_PassParams.h"
 
 #include "OOP_1.1_Classes.h"
-#include "OOP_1.4_ClassLifeCycle.h"
-#include "OOP_1.5_ClassCopyConstructor.h"
+#include "OOP_1.2_Encapsulation.h"
+#include "OOP_1.3_ClassLifeCycle.h"
+#include "OOP_1.4_CopyConstructor.h"
 #include "OOP_2_OperatorOverloading.h"
 #include "OOP_3_Inheritance.h"
 #include "OOP_4.1_VirtualFunctions.h"
@@ -43,6 +42,7 @@
 #include "Zzz_ConsoleDraw.h"
 #include "Zzz_ConsoleLanguage.h"
 
+#include <iostream>
 using namespace std;
 
 int main()
@@ -63,7 +63,8 @@ int main()
 //    LocalVariables::main();
 //    system("pause");
 
-	Classes::main();
+//	Classes::main();
+    Encapsulation::main();
 
     return 0;
 }
