@@ -25,9 +25,9 @@
 #include "Basics_Extra_3_StructList.h"
 #include "Basics_Extra_4_PassParams.h"
 
-#include "OOP_1.1_ClassBasics.h"
-#include "OOP_1.2_ClassLifeCycle.h"
-#include "OOP_1.3_ClassCopyConstructor.h"
+#include "OOP_1.1_Classes.h"
+#include "OOP_1.4_ClassLifeCycle.h"
+#include "OOP_1.5_ClassCopyConstructor.h"
 #include "OOP_2_OperatorOverloading.h"
 #include "OOP_3_Inheritance.h"
 #include "OOP_4.1_VirtualFunctions.h"
@@ -63,7 +63,7 @@ int main()
 //    LocalVariables::main();
 //    system("pause");
 
-	ClassBasics::main();
+	Classes::main();
 
     return 0;
 }
