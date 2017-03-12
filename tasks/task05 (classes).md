@@ -13,7 +13,7 @@
 * Глаголы - методы классов
 * Прилагательные (и другие определения и дополнения в предложении) - свойства классов.
 
-Пример выполненного задания: [Зоопарк](https://github.com/StriderAJR/StudentCpp/blob/master/source/OOP_TaskExample_5_Classes.h)
+Пример выполненного (ну или почти выполненного - работа в процессе) задания: [Зоопарк](https://github.com/StriderAJR/StudentCpp/blob/master/source/OOP_TaskExample_5_Classes.h)
 
 ### Что будет оцениваться
 1. Правильность системы классов для конкретного задания. 
