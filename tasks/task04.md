@@ -40,4 +40,4 @@
 
 ## Advanced. GUI
 
-Изучаемые темы: графический интерфейс, Qt (QtCreator)/WinForms (Embarcadero)/Windows 8.1 App (VS2015+)
+Изучаемые темы: графический интерфейс, Qt (QtCreator)/WinForms (Embarcadero C++ Builder)/Windows 8.1 App (VS2015+)
