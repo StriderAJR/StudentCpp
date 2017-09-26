@@ -64,7 +64,8 @@ int main()
 
 //	Classes::main();
 //    Encapsulation::main();
-    ClassLifeCycle::main();
+    // ClassLifeCycle::main();
+    Functions::main();
 
     return 0;
 }
