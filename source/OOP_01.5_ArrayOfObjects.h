@@ -147,8 +147,6 @@ namespace ClassArray
         books[size++] = newBook;
 
         printBooks(books, size);
-
-        system("pause");
     }
 }
 

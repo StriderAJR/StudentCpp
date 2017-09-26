@@ -39,7 +39,5 @@ namespace VirtualFunctions
         Child d; Base a;
         d.function1(); d.function2();
         a.function1(); a.function2();
-
-        system("pause");
     }
 }
