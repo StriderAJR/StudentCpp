@@ -125,6 +125,89 @@ namespace Cycles
         cout << "100 раз по 2 + 2 будет: "
              << calculateSum() << endl;
 
+        // И немного баловства
+
+        for (int i = 0; i < 10; i++) // Цикл1 выполнится 10 раз
+            cout << i << " ";
+        cout << endl;
+
+        for (int i = 0, j = 3; i < 10 && j > 0; i++, j--) // Цикл2 выполнится всего 3 раза
+            cout << "yes" << " ";
+        cout << endl;
+
+        for (int i = 10; i > -5; i = (i - 4) / 2 - 1) // Цикл3 выполнится 4 раза
+            cout << i << " ";
+        cout << endl;
+
+        for (int i = 1; ; i++) // Цикл4 неизвестно когда завершится
+        {
+            cout << "Try out #" << i << ". Input even number: ";
+            int n;
+            cin >> n;
+
+            if (n == 0)
+            {
+                cout << "CHEATER!" << endl;
+                i++;
+                continue;
+            }
+
+            if (n % 2 == 0)
+            {
+                cout << "Ok." << endl;
+                break;
+            }
+            else
+                cout << "No. The number is not even. Try again." << endl;;
+        }
+
+        for (;;) // Цикл5 бесконечен: нет ни начала, ни конца
+        {
+            cout << "Are tired? y/n ";
+            char c;
+            cin >> c;
+            if (c == 'y')
+                break;
+            if (c != 'y' && c != 'n')
+                cout << "Oops! Be careful what you are saying." << endl;
+
+        }
+
+        while (true) // Цикл6 бесконечен. Условие выхода - всегда истина
+        {
+            cout << "Day of Hedgehog. Are tired? y/n ";
+            char c;
+            cin >> c;
+            if (c == 'y')
+                break;
+            if (c != 'y' && c != 'n')
+                cout << "Oops! Be careful what you are saying." << endl;
+        }
+
+        char c;
+        cout << "MAKE IT STOP! Are tired? y/n ";
+        cin >> c;
+        while (c != 'y') // Цикл7 тупая вариация на тему цикла6
+        {
+            cout << "MAKE IT STOP! Are tired? y/n ";
+            cin >> c;
+        }
+
+        do // Цикл8 правильная реализация цикла с вопросом об остановке
+        {
+            cout << "KMP... Are tired? y/n ";
+            cin >> c;
+        } while (c != 'y');
+
+        int a = 10, b = 4;
+        double result;
+        do
+        {
+            result = ((double)a / b) * 2 - 3;
+            cout << "a / b * 2 - 10 = " << result << endl;
+            a = result, b = result / 3;
+        } while (result > 0);
+
         return 0;
     }
 }
