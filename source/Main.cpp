@@ -14,7 +14,9 @@
 #include "Basics_07.3_MultDimArray.h"
 #include "Basics_07.4_DynamicArray.h"
 #include "Basics_07.5_TwoDimDynamicArray.h"
-#include "Basics_08_FileIO.h"
+#include "Basics_08.1_Stream.h"
+#include "Basics_08.2_FoolProtection.h"
+#include "Basics_08.3_FileIO.h"
 #include "Basics_09_Structures.h"
 #include "Basics_10_Unions.h"
 #include "Basics_11_Enum.h"
@@ -65,7 +67,8 @@ int main()
 //	Classes::main();
 //    Encapsulation::main();
     // ClassLifeCycle::main();
-    Functions::main();
+//    Functions::main();
+    FoolProtection::main();
 
     return 0;
 }

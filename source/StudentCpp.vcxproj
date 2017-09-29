@@ -146,6 +146,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Basics_08.1_Stream.h" />
+    <ClInclude Include="Basics_08.2_FoolProtection.h" />
+    <ClInclude Include="Basics_08.3_FileIO.h" />
     <ClInclude Include="Basics_10_Unions.h" />
     <ClInclude Include="Basics_11_Enum.h" />
     <ClInclude Include="Basics_01_FirstProgram.h" />
@@ -163,7 +166,6 @@
     <ClInclude Include="Basics_07.3_MultDimArray.h" />
     <ClInclude Include="Basics_07.4_DynamicArray.h" />
     <ClInclude Include="Basics_07.5_TwoDimDynamicArray.h" />
-    <ClInclude Include="Basics_08_FileIO.h" />
     <ClInclude Include="Basics_09_Structures.h" />
     <ClInclude Include="Basics_Extra_01_StructEnum.h" />
     <ClInclude Include="Basics_Extra_02_StructArray.h" />
