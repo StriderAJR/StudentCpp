@@ -1,17 +1,22 @@
 # На чем программировать
 
-Практически на чем угодно.
+Практически на чем угодно. Можно даже на чистом компиляторе через консоль
 
+Если хочется именно IDE, то вот несколько примеров:
 ## Windows
 
 * Microsoft Visual Studio
+* CLion
+* Eclipse
 * QT Creator
 * Embarcadero (Borland) C++ Builder
 
 ## Linux
 
+* Visual Studio Code
+* CLion
 * QT Creator
-* Eclipse Galileo with CDT Plugin
+* Eclipse
 * NetBeans (which is also the base for the SunStudio IDE)
 * KDevelop4
 * CodeBlocks 8.02
