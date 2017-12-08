@@ -85,7 +85,8 @@ namespace StructList
         setlocale(LC_ALL, "Rus");
 
         int arraySize = 3;
-
+        List list;
+        
         for (int i = 0; i < arraySize; i++)
         {
             Book book;
@@ -101,12 +102,12 @@ namespace StructList
             cout << "Книга " << i << ". Год: ";
             cin >> book.Year;
 
-            addFirst(book);
+            list.addFirst(book);
         }
 
-        print();
+        list.print();
 
         // Как удалить весь список?
-        clear();
+        list.clear();
     }
 }
