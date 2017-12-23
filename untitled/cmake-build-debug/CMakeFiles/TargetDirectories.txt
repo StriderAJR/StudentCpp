@@ -1,3 +1,0 @@
-D:/Programmes/StudentCpp/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Programmes/StudentCpp/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-D:/Programmes/StudentCpp/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
