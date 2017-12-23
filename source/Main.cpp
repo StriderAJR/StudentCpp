@@ -12,10 +12,12 @@
 #include "Basics_6.1_References.h"
 #include "Basics_6.2_ReferencesVsPointers.h"
 #include "Basics_7.1_StaticArray.h"
-#include "Basics_7.2_TwoDimArray.h"
-#include "Basics_7.3_MultDimArray.h"
-#include "Basics_7.4_DynamicArray.h"
-#include "Basics_7.5_TwoDimDynamicArray.h"
+#include "Basics_7.2_DynamicArray.h"
+#include "Basics_7.3_Strings.h"
+#include "Basics_7.4_TwoDimArray.h"
+#include "Basics_7.5_MultDimArray.h"
+#include "Basics_7.6_DynamicArray.h"
+#include "Basics_7.7_TwoDimDynamicArray.h"
 #include "Basics_8_FileIO.h"
 #include "Basics_9_Structures.h"
 #include "Basics_10_Unions.h"
@@ -49,7 +51,10 @@ int main()
 {
     setlocale(0, "Rus");
 
-    Cycles::main();
+
+
+    Strings::main();
+//    Cycles::main();
 //    StructArray::main();
 //    ConsoleDraw::main();
 //    AssocArray::main();
@@ -59,7 +64,7 @@ int main()
 //    Unions::main();
 //    FileInputOutput::main();
 
-//    system("pause");
+    system("pause");
 
     return 0;
 }

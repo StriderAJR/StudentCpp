@@ -159,10 +159,11 @@
     <ClInclude Include="Basics_6.1_References.h" />
     <ClInclude Include="Basics_6.2_ReferencesVsPointers.h" />
     <ClInclude Include="Basics_7.1_StaticArray.h" />
-    <ClInclude Include="Basics_7.2_TwoDimArray.h" />
-    <ClInclude Include="Basics_7.3_MultDimArray.h" />
-    <ClInclude Include="Basics_7.4_DynamicArray.h" />
-    <ClInclude Include="Basics_7.5_TwoDimDynamicArray.h" />
+    <ClInclude Include="Basics_7.4_TwoDimArray.h" />
+    <ClInclude Include="Basics_7.2_DynamicArray.h" />
+    <ClInclude Include="Basics_7.5_MultDimArray.h" />
+    <ClInclude Include="Basics_7.6_DynamicArray.h" />
+    <ClInclude Include="Basics_7.7_TwoDimDynamicArray.h" />
     <ClInclude Include="Basics_8_FileIO.h" />
     <ClInclude Include="Basics_9_Structures.h" />
     <ClInclude Include="Basics_Extra_1_StructEnum.h" />
@@ -188,6 +189,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basics_7.3_Strings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
