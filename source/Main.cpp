@@ -1,5 +1,3 @@
-#include <iostream>
-
 // Подключаем все подпрограммы
 #include "Basics_1_FirstProgram.h"
 #include "Basics_2.1_Variables.h"
@@ -22,19 +20,20 @@
 #include "Basics_9_Structures.h"
 #include "Basics_10_Unions.h"
 #include "Basics_11_Enum.h"
-#include "Basics_Extra_1_StructEnum.h"
-#include "Basics_Extra_2_StructArray.h"
-#include "Basics_Extra_3_StructList.h"
-#include "Basics_Extra_4_PassParams.h"
+#include "Basics_Extra_01_StructEnum.h"
+#include "Basics_Extra_02_StructArray.h"
+#include "Basics_Extra_03_StructList.h"
+#include "Basics_Extra_04_PassParams.h"
 
-#include "OOP_1.1_ClassBasics.h"
-#include "OOP_1.2_ClassLifeCycle.h"
-#include "OOP_1.3_ClassCopyConstructor.h"
-#include "OOP_2_OperatorOverloading.h"
-#include "OOP_3_Inheritance.h"
-#include "OOP_4.1_VirtualFunctions.h"
-#include "OOP_4.2_AbstactClass.h"
-#include "OOP_5_Polymorph.h"
+#include "OOP_01.1_Classes.h"
+#include "OOP_01.2_Encapsulation.h"
+#include "OOP_01.3_ClassLifeCycle.h"
+#include "OOP_01.4_CopyConstructor.h"
+#include "OOP_02_OperatorOverloading.h"
+#include "OOP_03_Inheritance.h"
+#include "OOP_04.1_VirtualFunctions.h"
+#include "OOP_04.2_AbstactClass.h"
+#include "OOP_05_Polymorph.h"
 #include "OOP_Extra_AssocArray.h"
 
 #include "Templates_1_Templates.h"
@@ -45,6 +44,7 @@
 #include "Zzz_ConsoleDraw.h"
 #include "Zzz_ConsoleLanguage.h"
 
+#include <iostream>
 using namespace std;
 
 int main()
@@ -63,8 +63,15 @@ int main()
 //    ConsoleLanguage::main();
 //    Unions::main();
 //    FileInputOutput::main();
+//    Variables::main();
+//    GlobalVariables::main();
+//    LocalVariables::main();
 
-    system("pause");
+//	Classes::main();
+//    Encapsulation::main();
+    // ClassLifeCycle::main();
+//    Functions::main();
+    FoolProtection::main();
 
     return 0;
 }

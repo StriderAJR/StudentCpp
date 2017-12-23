@@ -101,7 +101,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -146,6 +146,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Basics_08.1_Stream.h" />
+    <ClInclude Include="Basics_08.2_FoolProtection.h" />
+    <ClInclude Include="Basics_08.3_FileIO.h" />
     <ClInclude Include="Basics_10_Unions.h" />
     <ClInclude Include="Basics_11_Enum.h" />
     <ClInclude Include="Basics_1_FirstProgram.h" />
@@ -180,6 +183,8 @@
     <ClInclude Include="OOP_4.2_AbstactClass.h" />
     <ClInclude Include="OOP_5_Polymorph.h" />
     <ClInclude Include="OOP_Extra_AssocArray.h" />
+    <ClInclude Include="OOP_Extra_StructVsClass.h" />
+    <ClInclude Include="OOP_TaskExample_5_Classes.h" />
     <ClInclude Include="Templates_1_Templates.h" />
     <ClInclude Include="Templates_2_TemplateList.h" />
     <ClInclude Include="Templates_Extra_AssocArrayTemplate.h" />

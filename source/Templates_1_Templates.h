@@ -181,7 +181,5 @@ namespace Templates
         list3.Add(Vector(1, 2));
 
         cout << endl << list3 << endl;
-
-        system("pause");
     }
 }
