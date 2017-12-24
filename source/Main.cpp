@@ -8,7 +8,8 @@
 #include "Basics_04_Functions.h"
 #include "Basics_05_Pointers.h"
 #include "Basics_06.1_References.h"
-#include "Basics_06.2_ReferencesVsPointers.h"
+#include "Basics_06.2_ReferenceParam.h"
+#include "Basics_06.3_ReferencesVsPointers.h"
 #include "Basics_07.1_StaticArray.h"
 #include "Basics_07.2_TwoDimArray.h"
 #include "Basics_07.3_MultDimArray.h"
@@ -55,6 +56,8 @@ int main()
 {
     setlocale(0, "Rus");
 
+//    References::main();
+    ReferenceParam::main();
 //    Strings::main();
 //    Cycles::main();
 //    StructArray::main();

@@ -33,7 +33,7 @@ namespace Classes
         int weight; // Вес
         char* name; // Имя
 
-        void setPassport(int height, int weight, char* n)
+        void setPassport(int height, int weight, const char* n)
         {
             // Обратите внимание, что параметры height и weight
             // имеют такое же имя как поля класса.

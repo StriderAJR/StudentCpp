@@ -1,16 +1,16 @@
-// Изучаемые темы:
-// Защита от дурака
+// РР·СѓС‡Р°РµРјС‹Рµ С‚РµРјС‹:
+// Р—Р°С‰РёС‚Р° РѕС‚ РґСѓСЂР°РєР°
 
 #pragma once
 
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 namespace FoolProtection
 {
     int readNumber()
     {
-
         do
         {
             int buffLen = 20;
