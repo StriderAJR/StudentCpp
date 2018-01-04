@@ -57,7 +57,7 @@ int main()
     setlocale(0, "Rus");
 
 //    References::main();
-    ReferenceParam::main();
+//    ReferenceParam::main();
 //    Strings::main();
 //    Cycles::main();
 //    StructArray::main();
@@ -77,6 +77,9 @@ int main()
 //    ClassLifeCycle::main();
 //    Functions::main();
 //    FoolProtection::main();
+
+    Templates::main();
+    TemplateList::main();
 
     return 0;
 }

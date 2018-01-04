@@ -7,60 +7,75 @@ namespace TemplateList
 {
     class Vector
     {
-        int X, Y;
+        int x, y;
     public:
-        Vector() : X(0), Y(0)
+        Vector() : x(0), y(0)
         {
         }
 
-        Vector(int x, int y) : X(x), Y(y)
+        Vector(int x, int y) : x(x), y(y)
         {
         }
 
-        void Print()
+        friend ostream& operator<<(ostream& os, Vector& v)
         {
-            cout << "(" << X << ", " << Y << ")" << endl;
+            return os << "(" << v.x << ", " << v.y << ")";
         }
-    };
-
-    template<class T>
-    struct ListElem
-    {
-        T Obj;
-        ListElem* Next;
     };
 
     template<class T>
     class List
     {
-        ListElem<T>* Head;
-        ListElem<T>* Last;
+        struct ListElem
+        {
+            T obj;
+            ListElem* next;
+        };
+
+        ListElem* head;
+        ListElem* last;
+        ListElem* iterator;
 
     public:
-        List() : Head(NULL)
+        List() : head(nullptr)
         {}
 
         void Add(T elem)
         {
-            if (Head == NULL)
+            if (head == nullptr)
             {
-                Head = new ListElem<T>();
-                Head->Obj = elem;
-                Head->Next = NULL;
-                Last = Head;
+                head = new ListElem;
+                head->obj = elem;
+                head->next = nullptr;
+                last = head;
             }
             else
             {
-                Last->Next = new ListElem<T>();
-                Last->Next->Obj = elem;
-                Last->Next->Next = NULL;
-                Last = Last->Next;
+                last->next = new ListElem;
+                last->next->obj = elem;
+                last->next->next = nullptr;
+                last = last->next;
             }
         }
 
-        ListElem<T>* GetIterator()
+        void begin()
         {
-            return Head;
+            iterator = head;
+        }
+
+        void next()
+        {
+            iterator = iterator->next;
+        }
+
+        T& getCurrent()
+        {
+            return iterator->obj;
+        }
+
+        bool isEnd()
+        {
+            return iterator == nullptr;
         }
     };
 
@@ -75,15 +90,9 @@ namespace TemplateList
         list.Add(4);
         list.Add(5);
 
-        auto iterator = list.GetIterator();
-        // Используйте auto только если вы знаете, что это такое.
-        // Потому что на защите вас обязательно спросят, что это такое.
-        // Если эта материя для вас еще сложна, используйте стандартное:
-        // ListElem<int>* iterator = list.GetIterator();
-        while (iterator != NULL)
+        for (list.begin(); !list.isEnd(); list.next())
         {
-            cout << iterator->Obj << ' ';
-            iterator = iterator->Next;
+            cout << list.getCurrent() << ' ';
         }
         cout << endl;
 
@@ -92,11 +101,9 @@ namespace TemplateList
         list2.Add(Vector(10, 20));
         list2.Add(Vector(30, 40));
 
-        auto iterator2 = list2.GetIterator();
-        while (iterator2 != NULL)
+        for (list2.begin(); !list2.isEnd(); list2.next())
         {
-            iterator2->Obj.Print();
-            iterator2 = iterator2->Next;
+            cout << list2.getCurrent() << ' ';
         }
     }
 }

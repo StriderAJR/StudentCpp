@@ -53,16 +53,16 @@ namespace StructArray
         {
             Point p;
 
-            cout << "pArray[" << i << "].X: "; cin >> p.X;
-            cout << "pArray[" << i << "].Y: "; cin >> p.Y;
+            cout << "pArray[" << i << "].x: "; cin >> p.X;
+            cout << "pArray[" << i << "].y: "; cin >> p.Y;
 
             pArray[i] = p;
         }
         // Или можно еще короче:
         for (int i = 0; i < 2; i++)
         {
-            cout << "pArray[" << i << "].X: "; cin >> pArray[i].X;
-            cout << "pArray[" << i << "].Y: "; cin >> pArray[i].Y;
+            cout << "pArray[" << i << "].x: "; cin >> pArray[i].X;
+            cout << "pArray[" << i << "].y: "; cin >> pArray[i].Y;
         }
         delete[] pArray;
     }

@@ -6,12 +6,6 @@ using namespace std;
 
 namespace Templates
 {
-    template <class T>
-    class List;
-
-    //template <class T>
-    // ostream& operator<<(ostream& os, const List<T>& L);
-
     class Vector
     {
         int X, Y;
@@ -105,7 +99,7 @@ namespace Templates
         {
             if (index > LastIndex)
             {
-//                throw new exception("Index is out of range.");
+                throw new exception("Index is out of range.");
             }
             return Elements[index];
         }
@@ -114,20 +108,11 @@ namespace Templates
         {
             if (index > LastIndex)
             {
-//                throw new exception("Index is out of range.");
+                throw new exception("Index is out of range.");
             }
             return Elements[index];
         }
 
-        void Print()
-        {
-            for (int i = 0; i < Size; i++)
-            {
-                cout << Elements[i];
-                if (i != Size - 1)
-                    cout << ", ";
-            }
-        }
         template <class T2>
         friend ostream& operator<<(ostream& os, const List<T2>& l);
     };
