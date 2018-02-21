@@ -35,40 +35,6 @@ int main()
 Вывести на экран сообщение (соблюдая пунктуацию и форматирование):
 
 #### Вариант 1
-Hello, human.
-
-I am ALIEN from planet Z36. I'm very dangerous and I want you dead.
-Afraid already? Right you are! 
-
-...
-
-Arghhhhh!!!
-
-#### Вариант 2
-SOS! SOS! SOS!!!
-dash dash dash dot dot dot dash dash dash
-...
-STOP! Wasn't it
-dot dot dot dash dash dash dot dot dot
-
-Well, I guess some old-fashioned way won't harm too.
-HELP!!!!!!
-
-#### Вариант 3
-...
-?!#
-*?<>)))(
-#&^@()$&@^
-
-???
-!!!
-
-^_^
-^_^'
--_-
-(O_o)(O_o)(O_o)(O_o)
-
-#### Вариант 4
 ```
      @
     @@@
@@ -78,7 +44,7 @@ HELP!!!!!!
 @@@@@@@@@@@
     |||
 ```
-#### Вариант 5
+#### Вариант 2
 ```
               _.---._    /\\
            ./'       "--`\//
