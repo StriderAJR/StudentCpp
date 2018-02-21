@@ -1,6 +1,11 @@
 # Лабораторная 1-2. Переменные и операторы
 Изучаемые темы: переменная, типы данных, оператор, приведение типов
 
+### Теория
+https://github.com/StriderAJR/StudentCpp/wiki/Переменные-и-операторы
+https://github.com/StriderAJR/StudentCpp/wiki/Локальные-и-глобальные-переменные
+
+### Пример
 ```C++
 #include <iostream>
 using namespace std;
