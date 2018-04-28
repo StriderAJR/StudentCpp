@@ -195,7 +195,7 @@ namespace Cycles
 
         do // Цикл8 правильная реализация цикла с вопросом об остановке
         {
-            cout << "KMP... Are tired? y/n ";
+            cout << "KMP... Are you not tired? y/n ";
             cin >> c;
         } while (c != 'y');
 
