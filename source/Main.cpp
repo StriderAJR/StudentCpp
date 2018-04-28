@@ -56,6 +56,7 @@ int main()
 {
     setlocale(0, "Rus");
 
+    Pointers::main();
 //    References::main();
 //    ReferenceParam::main();
 //    Strings::main();
@@ -78,8 +79,8 @@ int main()
 //    Functions::main();
 //    FoolProtection::main();
 
-    Templates::main();
-    TemplateList::main();
+//    Templates::main();
+//    TemplateList::main();
 
     return 0;
 }
