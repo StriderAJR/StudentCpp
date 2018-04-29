@@ -62,6 +62,7 @@ int main()
       << sizeof(ref) << endl
       << sizeof(long long&) << endl;
 
+   StaticArray::main();
 //    Pointers::main();
 //    References::main();
 //    ReferenceParam::main();
