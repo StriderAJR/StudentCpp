@@ -56,13 +56,8 @@ int main()
 {
    setlocale(0, "Rus");
 
-   long long a = 1024;
-   long long& ref = a;
-   cout << sizeof(a) << endl
-      << sizeof(ref) << endl
-      << sizeof(long long&) << endl;
-
-   StaticArray::main();
+//   StaticArray::main();
+//   DynamicArray::main();
 //    Pointers::main();
 //    References::main();
 //    ReferenceParam::main();
