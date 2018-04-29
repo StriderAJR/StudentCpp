@@ -54,9 +54,15 @@ using namespace std;
 
 int main()
 {
-    setlocale(0, "Rus");
+   setlocale(0, "Rus");
 
-    Pointers::main();
+   long long a = 1024;
+   long long& ref = a;
+   cout << sizeof(a) << endl
+      << sizeof(ref) << endl
+      << sizeof(long long&) << endl;
+
+//    Pointers::main();
 //    References::main();
 //    ReferenceParam::main();
 //    Strings::main();

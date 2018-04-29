@@ -155,7 +155,8 @@
     <ClInclude Include="Basics_04_Functions.h" />
     <ClInclude Include="Basics_05_Pointers.h" />
     <ClInclude Include="Basics_06.1_References.h" />
-    <ClInclude Include="Basics_06.2_ReferencesVsPointers.h" />
+    <ClInclude Include="Basics_06.2_ReferenceParam.h" />
+    <ClInclude Include="Basics_06.3_ReferencesVsPointers.h" />
     <ClInclude Include="Basics_07.1_StaticArray.h" />
     <ClInclude Include="Basics_07.2_TwoDimArray.h" />
     <ClInclude Include="Basics_07.3_MultDimArray.h" />
