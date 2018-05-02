@@ -78,6 +78,7 @@ int main()
 //	  Classes::main();
 //    Encapsulation::main();
 //    ClassLifeCycle::main();
+   ClassCopyConstructor::main();
 //    Functions::main();
 //    FoolProtection::main();
 
