@@ -16,12 +16,9 @@
 #include "Basics_07.4_DynamicArray.h"
 #include "Basics_07.5_Strings.h"
 #include "Basics_07.6_TwoDimDynamicArray.h"
-#include "Basics_08.1_Stream.h"
-#include "Basics_08.2_FoolProtection.h"
 #include "Basics_08.3_FileIO.h"
 #include "Basics_09_Structures.h"
 #include "Basics_10_Unions.h"
-#include "Basics_11_Enum.h"
 #include "Basics_Extra_01_StructEnum.h"
 #include "Basics_Extra_02_StructArray.h"
 #include "Basics_Extra_03_StructList.h"
@@ -30,19 +27,12 @@
 #include "OOP_01.2_Encapsulation.h"
 #include "OOP_01.3_ClassLifeCycle.h"
 #include "OOP_01.4_CopyConstructor.h"
-#include "OOP_01.5_ArrayOfObjects.h"
 #include "OOP_02_OperatorOverloading.h"
-#include "OOP_03_Inheritance.h"
-#include "OOP_04.1_VirtualFunctions.h"
-#include "OOP_04.2_AbstactClass.h"
-#include "OOP_05_Polymorph.h"
 #include "OOP_Extra_AssocArray.h"
 
-#include "Templates_1_Templates.h"
 #include "Templates_2_TemplateList.h"
 #include "Templates_Extra_AssocArrayTemplate.h"
 
-#include "Zzz_AdvancedStreamIO.h"
 #include "Zzz_ConsoleDraw.h"
 #include "Zzz_ConsoleLanguage.h"
 
@@ -55,35 +45,30 @@ int main()
 {
    setlocale(0, "Rus");
 
-//    StaticArray::main();
-//    DynamicArray::main();
-//    Pointers::main();
-//    References::main();
-//    ReferenceParam::main();
-//    Strings::main();
-//    Cycles::main();
-//    StructArray::main();
-//    ConsoleDraw::main();
-//    AssocArray::main();
-//    Polymorph::main();
-//    ClassArray::main();
-//    ConsoleLanguage::main();
-//    Unions::main();
-//    FileInputOutput::main();
-//    Variables::main();
-//    GlobalVariables::main();
-//    LocalVariables::main();
-//
-//	   Classes::main();
-//    Encapsulation::main();
-//    ClassLifeCycle::main();
-//    ClassCopyConstructor::main();
-//    Functions::main();
-//    FoolProtection::main();
-   OperatorOverloading::main();
+   // StaticArray::main();
+   // DynamicArray::main();
+   // Pointers::main();
+   // References::main();
+   // ReferenceParam::main();
+   // Strings::main();
+   // Cycles::main();
+   // StructArray::main();
+   // ConsoleDraw::main();
+   // AssocArray::main();
+   // ConsoleLanguage::main();
+   // Unions::main();
+   // FileInputOutput::main();
+   // Variables::main();
+   // GlobalVariables::main();
+   // LocalVariables::main();
+   //
+   // Classes::main();
+   // Encapsulation::main();
+   // ClassLifeCycle::main();
+   // ClassCopyConstructor::main();
+   // Functions::main();
+   // OperatorOverloading::main();
+   // TemplateList::main();
 
-//    Templates::main();
-//    TemplateList::main();
-
-    return 0;
+   return 0;
 }
