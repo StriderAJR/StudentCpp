@@ -171,7 +171,6 @@
     <ClInclude Include="Basics_Extra_01_StructEnum.h" />
     <ClInclude Include="Basics_Extra_02_StructArray.h" />
     <ClInclude Include="Basics_Extra_03_StructList.h" />
-    <ClInclude Include="Basics_Extra_04_PassParams.h" />
     <ClInclude Include="OOP_01.1_Classes.h" />
     <ClInclude Include="OOP_01.2_Encapsulation.h" />
     <ClInclude Include="OOP_01.3_ClassLifeCycle.h" />

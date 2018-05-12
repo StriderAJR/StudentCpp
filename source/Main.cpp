@@ -25,7 +25,6 @@
 #include "Basics_Extra_01_StructEnum.h"
 #include "Basics_Extra_02_StructArray.h"
 #include "Basics_Extra_03_StructList.h"
-#include "Basics_Extra_04_PassParams.h"
 
 #include "OOP_01.1_Classes.h"
 #include "OOP_01.2_Encapsulation.h"
@@ -56,8 +55,8 @@ int main()
 {
    setlocale(0, "Rus");
 
-//   StaticArray::main();
-//   DynamicArray::main();
+//    StaticArray::main();
+//    DynamicArray::main();
 //    Pointers::main();
 //    References::main();
 //    ReferenceParam::main();
@@ -75,12 +74,13 @@ int main()
 //    GlobalVariables::main();
 //    LocalVariables::main();
 //
-//	  Classes::main();
+//	   Classes::main();
 //    Encapsulation::main();
 //    ClassLifeCycle::main();
-   ClassCopyConstructor::main();
+//    ClassCopyConstructor::main();
 //    Functions::main();
 //    FoolProtection::main();
+   OperatorOverloading::main();
 
 //    Templates::main();
 //    TemplateList::main();
