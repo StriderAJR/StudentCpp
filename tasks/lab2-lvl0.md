@@ -24,20 +24,20 @@ P.s. Надеюсь, вы догадались, почему в этой лаб�
 Type the number to calculate factorial: 5
 Number to compare: 10
 
-Does the factorial exceeded the value? YES
+Did the factorial exceed the value? YES
 The step number is 2
 ```
 ```
 Type the number to calculate factorial: 5
 Number to compare: 25
 
-Does the factorial exceeded the value? NO
+Did the factorial exceed the value? NO
 ```
 ```
 Type the number to calculate factorial: 5
 Number to compare: 20
 
-Does the factorial exceeded the value? YES
+Did the factorial exceed the value? YES
 The step number is 3
 ```
 **ВНИМАНИЕ!** вы должны использовать ф-цию со следующим заголовком:
