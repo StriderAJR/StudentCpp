@@ -151,7 +151,10 @@
     <ClInclude Include="Basics_02.2_GlobalVariables.h" />
     <ClInclude Include="Basics_02.3_LocalVariables.h" />
     <ClInclude Include="Basics_02.4_LocalGlobalVariables.h" />
-    <ClInclude Include="Basics_03_Cycles.h" />
+    <ClInclude Include="todo_Basics_03.1_Cast.h" />
+    <ClInclude Include="todo_Basics_03.2_Operators.h" />
+    <ClInclude Include="todo_Basics_03.3_ConditionOperator.h" />
+    <ClInclude Include="Basics_03.4_Cycles.h" />
     <ClInclude Include="Basics_04_Functions.h" />
     <ClInclude Include="Basics_05_Pointers.h" />
     <ClInclude Include="Basics_06.1_References.h" />
