@@ -34,7 +34,7 @@ Input constants:
 3
 3
 end
-Input operations: + * + - /
+Input operations: + * - /
 
 Result = 15
 ```
