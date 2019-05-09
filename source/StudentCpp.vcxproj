@@ -170,7 +170,7 @@
     <ClInclude Include="Basics_08.3_FileIO.h" />
     <ClInclude Include="Basics_09_Structures.h" />
     <ClInclude Include="Basics_10_Unions.h" />
-    <ClInclude Include="todo_Basics_11_Enum.h" />
+    <ClInclude Include="Basics_11_Enum.h" />
     <ClInclude Include="Basics_Extra_01_StructEnum.h" />
     <ClInclude Include="Basics_Extra_02_StructArray.h" />
     <ClInclude Include="Basics_Extra_03_StructList.h" />
@@ -180,7 +180,7 @@
     <ClInclude Include="OOP_01.4_CopyConstructor.h" />
     <ClInclude Include="OOP_Extra_ArrayOfObjects.h" />
     <ClInclude Include="OOP_02_OperatorOverloading.h" />
-    <ClInclude Include="todo_OOP_03_Inheritance.h" />
+    <ClInclude Include="OOP_03_Inheritance.h" />
     <ClInclude Include="todo_OOP_04.1_VirtualFunctions.h" />
     <ClInclude Include="todo_OOP_04.2_AbstactClass.h" />
     <ClInclude Include="todo_OOP_05_Polymorph.h" />
