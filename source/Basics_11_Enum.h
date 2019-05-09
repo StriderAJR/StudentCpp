@@ -27,10 +27,10 @@ namespace Enum
     {
         BankAccount ivan;
         ivan.sum = 1200;
-        ivan.currency = Ruble;
+        ivan.currency = Currency::Ruble;
 
         BankAccount victor;
         victor.sum = 5000;
-        victor.currency = Dollar;
+        victor.currency = Currency::Dollar;
     }
 }
