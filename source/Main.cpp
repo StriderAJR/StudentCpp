@@ -1,10 +1,13 @@
+#include <iostream>
+using namespace std;
+
 // Подключаем все подпрограммы
 #include "Basics_01_FirstProgram.h"
 #include "Basics_02.1_Variables.h"
 #include "Basics_02.2_GlobalVariables.h"
 #include "Basics_02.3_LocalVariables.h"
 #include "Basics_02.4_LocalGlobalVariables.h"
-#include "Basics_03_Cycles.h"
+#include "Basics_03.4_Cycles.h"
 #include "Basics_04_Functions.h"
 #include "Basics_05_Pointers.h"
 #include "Basics_06.1_References.h"
@@ -33,18 +36,8 @@
 #include "Templates_2_TemplateList.h"
 #include "Templates_Extra_AssocArrayTemplate.h"
 
-#include "Zzz_ConsoleDraw.h"
-#include "Zzz_ConsoleLanguage.h"
-
-#include <iostream>
-
-
-using namespace std;
-
 int main()
 {
-   setlocale(0, "Rus");
-
    // StaticArray::main();
    // DynamicArray::main();
    // Pointers::main();

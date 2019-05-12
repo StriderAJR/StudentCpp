@@ -3,6 +3,8 @@
 
 #pragma once
 #include <iostream>
+#include <stdlib.h>
+#include <string.h>
 
 using namespace std;
 
@@ -115,7 +117,7 @@ namespace ClassArray
         cout << "Введите год издания книги:";
 
         cin.getline(buf, 255);
-        year = (short)atoi(buf);
+        year = (short) atoi(buf);
 
         delete[] buf;
 
@@ -136,8 +138,6 @@ namespace ClassArray
 
     void main()
     {
-        setlocale(0, "RUS");
-
         Book** books = new Book*[10];
         int size = 0;
 

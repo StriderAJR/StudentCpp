@@ -4,7 +4,6 @@
 #pragma once
 
 #include <iostream>
-#include <cstdlib>
 #include <string.h>
 using namespace std;
 
@@ -82,8 +81,6 @@ namespace StructList
 
     void main()
     {
-        setlocale(LC_ALL, "Rus");
-
         int arraySize = 3;
         List list;
         

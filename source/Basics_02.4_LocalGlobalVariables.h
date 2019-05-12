@@ -31,8 +31,6 @@ namespace LocalGlobalVariables
         // То же самое - внутри main не было объявления переменной,
         // но доступ к ней мы имеем
 
-        setlocale(LC_ALL, "rus");
-
         int t; // А вот это уже локальная переменная
         cin >> t;
 

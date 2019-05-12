@@ -132,8 +132,6 @@ namespace Templates
 
     void main()
     {
-        setlocale(LC_ALL, "Rus");
-
         cout << "HellO!" << endl;
 
         List<int> list;

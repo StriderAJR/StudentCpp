@@ -191,8 +191,6 @@
     <ClInclude Include="Templates_2_TemplateList.h" />
     <ClInclude Include="Templates_Extra_AssocArrayTemplate.h" />
     <ClInclude Include="todo_Zzz_AdvancedStreamIO.h" />
-    <ClInclude Include="Zzz_ConsoleDraw.h" />
-    <ClInclude Include="Zzz_ConsoleLanguage.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
